@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-   
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -48,22 +48,30 @@ table {
 	border-spacing: 0;
 }
 
-h1 {
-    color: blue;
+
+.main {
+	display: flex;
+	justify-content: space-around;
+
+	.poem {
+		display: flex;
+		margin: 100px;
+	}
+
+	.verbs {
+		display: flex;
+		margin: 100px;
+	}
 }
 
-.main-body {
-    display: flex;
-}
+// .poem {
+//     flex: 1;
+//     margin: 100px;
+//     order: 2px solid rgb(9, 8, 8);
+// }
 
-.poem {
-    flex: 1;
-    margin: 100px;
-    order: 2px solid rgb(9, 8, 8);
-}
-
-.verbs {
-    flex: 1;
-    margin: 100px;
-    order: 2px solid black;
-}
+// .verbs {
+//     flex: 1;
+//     margin: 100px;
+//     order: 2px solid black;
+// }

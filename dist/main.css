@@ -55,22 +55,15 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  color: blue;
-}
-
-.main-body {
+.main {
   display: flex;
+  justify-content: space-around;
 }
-
-.poem {
-  flex: 1;
+.main .poem {
+  display: flex;
   margin: 100px;
-  order: 2px solid rgb(9, 8, 8);
 }
-
-.verbs {
-  flex: 1;
+.main .verbs {
+  display: flex;
   margin: 100px;
-  order: 2px solid black;
 }

@@ -1,4 +1,3 @@
-
 {"1" : [
     {
         "translation": "Traveler, your footprints"
@@ -105,5 +104,39 @@
         "word": "camino",
         "part_of_speech": "noun",
         "verb_subset": ""
+        }
+]}
+
+{"4" : [
+    {
+        "translation": "you make your own path as you walk"
+        },
+    {
+        "order_id": 14,
+        "line_id": 1,
+        "word": "se hace",
+        "part_of_speech": "verb",
+        "verb_subset": "reflexive, present"
+        },
+    {
+        "order_id": 15,
+        "line_id": 2,
+        "word": "camino",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+        },
+    {
+        "order_id": 16,
+        "line_id": 3,
+        "word": "al",
+        "part_of_speech": "article",
+        "verb_subset": ""
+        },
+    {
+        "order_id": 17,
+        "line_id": 4,
+        "word": "andar",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
         }
 ]}
