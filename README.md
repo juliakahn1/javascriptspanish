@@ -1,4 +1,4 @@
-# JavaSpanish
+# JavaScriptSpanish
 
 ## background
 
