@@ -1,0 +1,83 @@
+{
+    "1" : {
+        "translation" :
+            "Traveler, your footprints",
+
+        "0" : {
+            "order_id": 1,
+            "line_id": 1,
+            "word": "Caminante,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+
+        "1" : {
+            "order_id": 2,
+            "line_id": 2,
+            "word": "son",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+
+        "2" : {
+            "order_id": 3,
+            "line_id": 3,
+            "word": "tus",
+            "part_of_speech": "adjective",
+            "verb_subset": ""
+        },
+
+        "3" : {
+            "order_id": 4,
+            "line_id": 4,
+            "word": "huellas",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    },
+
+    "2" : {
+        "translation" :
+            "are the only road, nothing else.",
+
+        "0" : {
+            "order_id": 5,
+            "line_id": 1,
+            "word": "el,",
+            "part_of_speech": "article",
+            "verb_subset": ""
+        },
+
+        "1" : {
+            "order_id": 6,
+            "line_id": 2,
+            "word": "camino,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+
+        "2" : {
+            "order_id": 7,
+            "line_id": 3,
+            "word": "y,",
+            "part_of_speech": "conjunction",
+            "verb_subset": ""
+        },
+
+        "3" : {
+            "order_id": 8,
+            "line_id": 4,
+            "word": "nada,",
+            "part_of_speech": "adjective",
+            "verb_subset": ""
+        },
+
+        "4" : {
+            "order_id": 9,
+            "line_id": 5,
+            "word": "más,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    }
+}

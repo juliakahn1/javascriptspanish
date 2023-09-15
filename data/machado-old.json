@@ -1,15 +1,32 @@
-{"1" : [
-    {
-        "translation": "Traveler, your footprints"
-        },
-    {
+{"1" : {
+    "translation": {
+        "Traveler, your footprints"
+    },
+
+    "0" : {
         "order_id": 1,
         "line_id": 1,
         "word": "Caminante,",
         "part_of_speech": "noun",
         "verb_subset": ""
         },
-    {
+    "1" : {
+        "order_id": 2,
+        "line_id": 2,
+        "word": "son",
+        "part_of_speech": "verb",
+        "verb_subset": "present tense"
+        },
+    }
+
+    "0" : {
+        "order_id": 1,
+        "line_id": 1,
+        "word": "Caminante,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+        },
+    "1" : {
         "order_id": 2,
         "line_id": 2,
         "word": "son",
@@ -29,10 +46,9 @@
         "word": "huellas",
         "part_of_speech": "noun",
         "verb_subset": ""
-        }
-]}
+        },
 
-{"2" : [
+"2" : [
     {
         "translation": "are the only road, nothing else."
         },
@@ -71,9 +87,9 @@
         "part_of_speech": "noun",
         "verb_subset": ""
         }
-]}
+],
 
-{"3" : [
+"3" : [
     {
         "translation": "Traveler, there is no road;"
         },
@@ -105,11 +121,11 @@
         "part_of_speech": "noun",
         "verb_subset": ""
         }
-]}
+],
 
-{"4" : [
+"4" : [
     {
-        "translation": "you make your own path as you walk"
+        "translation": "you make your own path as you walk."
         },
     {
         "order_id": 14,
