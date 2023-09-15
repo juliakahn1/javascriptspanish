@@ -1,38 +1,57 @@
-// sets up poem in the UL
-
-// parses appropriate JSON file for
-
-
 class View {
     constructor(poemEl, poemName) {
-        // this is the poem div from the HTML via index.js
+        // poem div from the HTML via index.js
         this.poemEl = poemEl
-        // this is the currently-selected poem name based on the nav
+        // currently-selected poem name based on the nav
         this.poemName = poemName
-        this.poem = this.grabPoem(poemName)
+        // poem from data folder
+        const setUp = this.setUpPoem.bind(this)
+        setUp()
     }
 
+    // grab matching poem from data folder
     grabPoem(poemName) {
         const res = fetch(`./data/${poemName}.json`)
-            .then((response) => response.json())
-            .then((json) => json) // does this return?
+            .then(res => {
+                if (res.ok) {
+                    return res.json()
+                } else {
+                    throw res
+                }
+            })
+            .then(retrieval => this.poem = retrieval)
+            .catch(errorResponse => console.log(errorResponse))
     }
 
     setUpPoem() {
-        // iterate through each key of this.poem
-            // create an empty ul element
-                // call populateLine(line, ul), which returns a populated ul with words
-            // append to this.poemEl
-        //
+        console.log(this.poem)
+
+        // const lineCount = Object.keys(this.poem).length
+
+        // for (let lineNum = 0; lineNum < lineCount; lineNum++) {
+        //     const ul = document.createElement("ul")
+        //     const filledLine = this.populateLine(this.poem[lineNum], ul)
+        //     filledLine.classList.add(`line-${lineNum}`)
+        //     this.poemEl.append(filledLine)
+        // }
     }
 
-    populateLine(jsonLine, emptyUL) {
-        // iterate through the data line (has line "1", so go through 0 to 1)
-            // const li = document.createElement("li")
-            // li.classList.add(jsonLine[part_of_speech]) - ignore for now subset
-            // li.innerText = jasonLine[word]
-            // append to emptyUL
-        //
-        // return UL
+    populateLine(jsonLine, ul) {
+        const wordCount = Object.keys(jsonLine).length - 1 // exclude "translation" key
+        for (let ele = 0; ele < wordCount; ele++) {
+            const li = document.createElement("li")
+            li.innerText = jsonLine["word"] // returns string
+            li.classList.add(jsonLine["part_of_speech"]) // returns string
+
+            ul.append(li)
+            if (ele !== wordCount - 1) {
+                const space = document.createElement("li")
+                space.innerText = " "
+                ul.append(space) // spacing if not last word
+            }
+        }
+        return ul
     }
 }
+
+export default View;

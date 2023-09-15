@@ -48,6 +48,21 @@ table {
 	border-spacing: 0;
 }
 
+header {
+	display: flex;
+	justify-content:space-between;
+	margin: 10px;
+	padding: 10px;
+
+	h1 {
+		display: flex
+	}
+
+	ul {
+		display: flex;
+	}
+}
+
 
 .main {
 	display: flex;
