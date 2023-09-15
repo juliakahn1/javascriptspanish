@@ -8,11 +8,11 @@ While Duolingo allows its learners to understand the building blocks of the lang
 
 In JavaSpanish, users will be able to:
 
-Choose from a selection of Spanish poetry by select Spanish-speaking poets
-Select poetry ranging from a grammatical and translation level and complexity of easy to difficult
-On the poem itself, hover with their cursor over words to identify their grammatical data/part of speech
-On the poem itself, hover with their cursor over words and/or phrases to access English translations
-Select from a collection of parts of speech and grammatical concepts to highlight in the chosen poem all instances of the selected concept
+- Choose from a selection of Spanish poetry by select Spanish-speaking poets
+- Select poetry ranging from a grammatical and translation level and complexity of easy to difficult
+- On the poem itself, hover with their cursor over words to identify their grammatical data/part of speech
+- On the poem itself, hover with their cursor over words and/or phrases to access English translations
+- Select from a collection of parts of speech and grammatical concepts to highlight in the chosen poem all instances of the selected concept
 
 ## wireframes
 
