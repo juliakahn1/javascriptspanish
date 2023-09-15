@@ -18,9 +18,9 @@ In JavaSpanish, users will be able to:
 
 [Figma wireframe](https://www.figma.com/file/T1caNZRpRzDTFpZBtkdlrW/WireFramer-%E2%80%93-Quick-wireframing-library-(Community)?type=design&node-id=303-5615&mode=design&t=1oa1BtoDtu6H4pWT-4)
 
-<img width="707" alt="Screenshot 2023-09-15 at 9 56 55 AM" src="https://github.com/juliakahn1/javascriptspanish/assets/136507810/cfd496fb-8bee-4f34-bb7b-af2dd26208a3">
+<img width="673" alt="Screenshot 2023-09-15 at 9 59 27 AM" src="https://github.com/juliakahn1/javascriptspanish/assets/136507810/7d31ddba-8084-4662-9f6b-ad18e7534867">
 
-<img width="709" alt="Screenshot 2023-09-15 at 9 56 44 AM" src="https://github.com/juliakahn1/javascriptspanish/assets/136507810/e853daf9-1a05-47cc-9419-42045fef8351">
+<img width="707" alt="Screenshot 2023-09-15 at 9 56 55 AM" src="https://github.com/juliakahn1/javascriptspanish/assets/136507810/cfd496fb-8bee-4f34-bb7b-af2dd26208a3">
 
 ## technologies, libraries, apis
 
