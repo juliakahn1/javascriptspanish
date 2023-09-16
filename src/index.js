@@ -1,12 +1,11 @@
-import View from "./scripts/view"
+import PoemView from "./scripts/poem-view"
 
-window.View = View
+window.PoemView = PoemView
 
 // create object for poem from HTML where you want to put poem
 const poemEl = document.querySelector(".poem");
 // testing
-const test = new View(poemEl, "machado")
-// test.setUpPoem()
+const test = new PoemView(poemEl, "machado")
 window.test = test
 
 // pass in poem that is selected

@@ -48,18 +48,29 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	background: #F2F2F2;
+}
+
 header {
 	display: flex;
 	justify-content:space-between;
 	margin: 10px;
 	padding: 10px;
+	background: #0B3142;;
 
 	h1 {
-		display: flex
+		display: flex;
 	}
 
 	ul {
 		display: flex;
+
+		li {
+			display: inline;
+			margin: 7px;
+		}
+
 	}
 }
 
@@ -69,8 +80,17 @@ header {
 	justify-content: space-around;
 
 	.poem {
-		display: flex;
 		margin: 100px;
+
+		ul {
+			display: flex;
+			margin: 5px;
+
+			li {
+				margin: 3px;
+				font-size: 25px;
+			}
+		}
 	}
 
 	.verbs {
@@ -78,15 +98,3 @@ header {
 		margin: 100px;
 	}
 }
-
-// .poem {
-//     flex: 1;
-//     margin: 100px;
-//     order: 2px solid rgb(9, 8, 8);
-// }
-
-// .verbs {
-//     flex: 1;
-//     margin: 100px;
-//     order: 2px solid black;
-// }

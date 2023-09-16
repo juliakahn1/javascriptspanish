@@ -43,7 +43,7 @@
         "0" : {
             "order_id": 5,
             "line_id": 1,
-            "word": "el,",
+            "word": "el",
             "part_of_speech": "article",
             "verb_subset": ""
         },
@@ -51,7 +51,7 @@
         "1" : {
             "order_id": 6,
             "line_id": 2,
-            "word": "camino,",
+            "word": "camino",
             "part_of_speech": "noun",
             "verb_subset": ""
         },
@@ -59,7 +59,7 @@
         "2" : {
             "order_id": 7,
             "line_id": 3,
-            "word": "y,",
+            "word": "y",
             "part_of_speech": "conjunction",
             "verb_subset": ""
         },
@@ -67,7 +67,7 @@
         "3" : {
             "order_id": 8,
             "line_id": 4,
-            "word": "nada,",
+            "word": "nada",
             "part_of_speech": "adjective",
             "verb_subset": ""
         },
@@ -75,7 +75,331 @@
         "4" : {
             "order_id": 9,
             "line_id": 5,
-            "word": "más,",
+            "word": "más;",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    },
+
+    "2" : {
+        "translation": "Traveler, there is no road,",
+
+        "0": {
+            "order_id": 10,
+            "line_id": 1,
+            "word": "Caminante,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 11,
+            "line_id": 2,
+            "word": "no",
+            "part_of_speech": "adjective",
+            "verb_subset": ""
+        },
+        "2": {
+            "order_id": 12,
+            "line_id": 3,
+            "word": "hay",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "3": {
+            "order_id": 13,
+            "line_id": 4,
+            "word": "camino,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    },
+
+    "3" : {
+        "translation": "The road is made by walking.",
+
+        "0": {
+            "order_id": 14,
+            "line_id": 1,
+            "word": "se",
+            "part_of_speech": "pronoun",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 15,
+            "line_id": 2,
+            "word": "hace",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "2": {
+            "order_id": 16,
+            "line_id": 3,
+            "word": "camino",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "3": {
+            "order_id": 17,
+            "line_id": 4,
+            "word": "al",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "4": {
+            "order_id": 18,
+            "line_id": 5,
+            "word": "andar.",
+            "part_of_speech": "verb",
+            "verb_subset": "infinitive"
+        }
+    },
+
+    "4": {
+        "translation": "By walking, the path is made,",
+        "0": {
+            "order_id": 19,
+            "line_id": 1,
+            "word": "Al",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 20,
+            "line_id": 2,
+            "word": "andar",
+            "part_of_speech": "verb",
+            "verb_subset": "infinitive"
+        },
+        "2": {
+            "order_id": 21,
+            "line_id": 3,
+            "word": "se",
+            "part_of_speech": "pronoun",
+            "verb_subset": ""
+        },
+        "3": {
+            "order_id": 22,
+            "line_id": 4,
+            "word": "hace",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "4": {
+            "order_id": 23,
+            "line_id": 5,
+            "word": "el",
+            "part_of_speech": "article",
+            "verb_subset": ""
+        },
+        "5": {
+            "order_id": 24,
+            "line_id": 6,
+            "word": "camino,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    },
+
+    "5": {
+        "translation": "and when you look back,",
+        "0": {
+            "order_id": 25,
+            "line_id": 1,
+            "word": "y",
+            "part_of_speech": "conjunction",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 26,
+            "line_id": 2,
+            "word": "al",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "2": {
+            "order_id": 27,
+            "line_id": 3,
+            "word": "volver",
+            "part_of_speech": "verb",
+            "verb_subset": "infinitive"
+        },
+        "3": {
+            "order_id": 28,
+            "line_id": 4,
+            "word": "la",
+            "part_of_speech": "article",
+            "verb_subset": ""
+        },
+        "4": {
+            "order_id": 29,
+            "line_id": 5,
+            "word": "vista",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "5": {
+            "order_id": 30,
+            "line_id": 6,
+            "word": "atrás",
+            "part_of_speech": "adverb",
+            "verb_subset": ""
+        }
+    },
+    "6": {
+        "translation": "you'll see the path",
+        "0": {
+            "order_id": 31,
+            "line_id": 1,
+            "word": "se",
+            "part_of_speech": "pronoun",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 32,
+            "line_id": 2,
+            "word": "ve",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "2": {
+            "order_id": 33,
+            "line_id": 3,
+            "word": "la",
+            "part_of_speech": "article",
+            "verb_subset": ""
+        },
+        "3": {
+            "order_id": 34,
+            "line_id": 4,
+            "word": "senda",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "4": {
+            "order_id": 35,
+            "line_id": 5,
+            "word": "que",
+            "part_of_speech": "pronoun",
+            "verb_subset": ""
+        },
+        "5": {
+            "order_id": 36,
+            "line_id": 6,
+            "word": "nunca",
+            "part_of_speech": "adverb",
+            "verb_subset": ""
+        }
+    },
+    "7": {
+        "translation": "that you must never tread again.",
+        "0": {
+            "order_id": 37,
+            "line_id": 1,
+            "word": "se",
+            "part_of_speech": "pronoun",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 38,
+            "line_id": 2,
+            "word": "ha",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "2": {
+            "order_id": 39,
+            "line_id": 3,
+            "word": "de",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "3": {
+            "order_id": 40,
+            "line_id": 4,
+            "word": "volver",
+            "part_of_speech": "verb",
+            "verb_subset": "infinitive"
+        },
+        "4": {
+            "order_id": 41,
+            "line_id": 5,
+            "word": "a",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "5": {
+            "order_id": 42,
+            "line_id": 6,
+            "word": "pisar.",
+            "part_of_speech": "verb",
+            "verb_subset": "infinitive"
+        }
+    },
+    "8": {
+        "translation": "Traveler, there is no road",
+        "0": {
+            "order_id": 43,
+            "line_id": 1,
+            "word": "Caminante,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 44,
+            "line_id": 2,
+            "word": "no",
+            "part_of_speech": "adjective",
+            "verb_subset": ""
+        },
+        "2": {
+            "order_id": 45,
+            "line_id": 3,
+            "word": "hay",
+            "part_of_speech": "verb",
+            "verb_subset": "present"
+        },
+        "3": {
+            "order_id": 46,
+            "line_id": 4,
+            "word": "camino",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        }
+    },
+    "9": {
+        "translation": "but wakes in the sea.",
+        "0": {
+            "order_id": 47,
+            "line_id": 1,
+            "word": "sino",
+            "part_of_speech": "conjunction",
+            "verb_subset": ""
+        },
+        "1": {
+            "order_id": 48,
+            "line_id": 2,
+            "word": "estelas",
+            "part_of_speech": "noun",
+            "verb_subset": ""
+        },
+        "2": {
+            "order_id": 49,
+            "line_id": 3,
+            "word": "en",
+            "part_of_speech": "preposition",
+            "verb_subset": ""
+        },
+        "3": {
+            "order_id": 50,
+            "line_id": 4,
+            "word": "la",
+            "part_of_speech": "article",
+            "verb_subset": ""
+        },
+        "4": {
+            "order_id": 51,
+            "line_id": 5,
+            "word": "mar.",
             "part_of_speech": "noun",
             "verb_subset": ""
         }
