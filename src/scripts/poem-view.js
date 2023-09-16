@@ -35,7 +35,7 @@ class PoemView {
         for (let lineNum = 0; lineNum < lineCount; lineNum++) {
             const ul = document.createElement("ul")
             const filledLine = this.populateLine(this.poem[lineNum], ul)
-            filledLine.classList.add(`line-${lineNum}`)
+            filledLine.classList.add(`line-${lineNum}-spanish`)
             this.poemEl.append(filledLine)
         }
     }
