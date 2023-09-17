@@ -113,16 +113,44 @@ header ul li {
   margin: 5px;
 }
 .main .poem ul li {
-  margin: 3px;
+  margin: 2px;
   font-size: 1.8vw;
+  padding: 2px;
 }
-.main .verbs {
+.main .poem ul .selected {
+  border-radius: 4px;
+}
+.main .poem ul .selected.noun {
+  background-color: #90bbd3;
+}
+.main .poem ul .selected.verb {
+  background-color: #bfcba4;
+}
+.main .poem ul .selected.adjective {
+  background-color: #f8b77b;
+}
+.main .poem ul .selected.adverb {
+  background-color: #f36691;
+}
+.main .poem ul .selected.article {
+  background-color: #e87577;
+}
+.main .poem ul .selected.pronoun {
+  background-color: #9f93b6;
+}
+.main .poem ul .selected.preposition {
+  background-color: #f1d188;
+}
+.main .poem ul .selected.conjunction {
+  background-color: #60d8d0;
+}
+.main .pos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.main .verbs .verb-list {
+.main .pos .pos-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -130,42 +158,44 @@ header ul li {
   align-items: center;
   max-width: 70%;
 }
-.main .verbs .verb-list li {
+.main .pos .pos-list .pos-tile {
   margin: 6px;
   font-size: 15px;
   color: #F2F2F2;
-  font-weight: 500;
+  font-weight: 800;
   border-radius: 5px;
   padding: 12px;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
-  font-family: "Righteous", cursive;
 }
-.main .verbs .verb-list li:hover {
+.main .pos .pos-list .pos-tile.selected {
+  box-shadow: 3px 3px rgb(173, 173, 173);
+}
+.main .pos .pos-list li:hover {
   cursor: pointer;
   transform: scale(0.9);
 }
-.main .verbs .verb-list #noun {
-  background-color: #4F5D2F;
+.main .pos .pos-list #noun {
+  background-color: #0D699A;
 }
-.main .verbs .verb-list #verb {
-  background-color: #C75000;
+.main .pos .pos-list #verb {
+  background-color: #768948;
 }
-.main .verbs .verb-list #adjective {
-  background-color: #7C90A0;
+.main .pos .pos-list #adjective {
+  background-color: #EC7200;
 }
-.main .verbs .verb-list #adverb {
+.main .pos .pos-list #adverb {
+  background-color: #CA3F69;
+}
+.main .pos .pos-list #article {
+  background-color: #A50104;
+}
+.main .pos .pos-list #pronoun {
+  background-color: #39304A;
+}
+.main .pos .pos-list #preposition {
   background-color: #D5A021;
 }
-.main .verbs .verb-list #article {
-  background-color: #673C4F;
-}
-.main .verbs .verb-list #pronoun {
-  background-color: #BC5F04;
-}
-.main .verbs .verb-list #preposition {
-  background-color: #12263A;
-}
-.main .verbs .verb-list #conjunction {
-  background-color: #3C787E;
+.main .pos .pos-list #conjunction {
+  background-color: #288F88;
 }

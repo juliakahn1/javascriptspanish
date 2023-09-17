@@ -112,19 +112,57 @@ header {
 			margin: 5px;
 
 			li {
-				margin: 3px;
+				margin: 2px;
 				font-size: 1.8vw;
+				padding: 2px;
 			}
+
+			.selected {
+				border-radius: 4px;
+
+				&.noun {
+					background-color: #90bbd3;
+				}
+
+				&.verb {
+					background-color: #bfcba4;
+				}
+
+				&.adjective {
+					background-color: #f8b77b;
+				}
+
+				&.adverb{
+					background-color: #f36691;
+				}
+
+				&.article{
+					background-color: #e87577;
+				}
+
+				&.pronoun{
+					background-color: #9f93b6;
+				}
+
+				&.preposition{
+					background-color: #f1d188;
+				}
+
+				&.conjunction{
+					background-color: #60d8d0;
+				}
+			}
+
 		}
 	}
 
-	.verbs {
+	.pos {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 
-		.verb-list {
+		.pos-list {
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: row;
@@ -132,21 +170,19 @@ header {
 			align-items: center;
 			max-width: 70%;
 
-			li {
-				// flex: 1 0;
+			.pos-tile {
 				margin: 6px;
 				font-size: 15px;
 				color: #F2F2F2;
-				font-weight: 500;
+				font-weight: 800;
 				border-radius: 5px;
 				padding: 12px;
 				text-transform:uppercase;
 				transition: all .2s ease-in-out;
-				font-family: 'Righteous', cursive;
-			}
 
-			li.pos-title {
-				// width: 0.2em;
+				&.selected {
+					box-shadow: 3px 3px rgb(173, 173, 173);
+				}
 			}
 
 			li:hover {
@@ -156,35 +192,35 @@ header {
 
 
 			#noun {
-				background-color: #4F5D2F;
+				background-color: #0D699A;
 			}
 
 			#verb {
-				background-color: #C75000;
+				background-color: #768948;
 			}
 
 			#adjective {
-				background-color: #7C90A0;
+				background-color: #EC7200;
 			}
 
 			#adverb {
-				background-color: #D5A021;
+				background-color: #CA3F69;
 			}
 
 			#article {
-				background-color: #673C4F;
+				background-color: #A50104;
 			}
 
 			#pronoun {
-				background-color: #BC5F04;
+				background-color: #39304A;
 			}
 
 			#preposition {
-				background-color: #12263A;
+				background-color: #D5A021;
 			}
 
 			#conjunction {
-				background-color: #3C787E;
+				background-color: #288F88;
 			}
 		}
 	}
