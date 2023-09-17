@@ -7,7 +7,7 @@ class PartsOfSpeechView {
 
     populateWordTags() {
         // should this be a class var?
-        const categories = ["noun", "verb", "adjective", "adverb", "article", "pronoun"]
+        const categories = ["noun", "verb", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"]
         const ul = document.createElement("ul")
         ul.classList.add("verb-list")
         categories.forEach(partOfSpeech => {

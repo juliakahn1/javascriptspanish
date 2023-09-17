@@ -96,33 +96,46 @@ header {
 
 .main {
 	display: flex;
-	justify-content: space-around;
-	margin-top: 75px;
+	justify-content: space-evenly;
+	margin: 5em 8.1em 0 8.1em;
 
 	.poem {
+		min-width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+
 		ul {
 			display: flex;
 			margin: 5px;
 
 			li {
 				margin: 3px;
-				font-size: 25px;
+				font-size: 1.8vw;
 			}
 		}
 	}
 
 	.verbs {
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
 		.verb-list {
 			display: flex;
-			flex-direction: column;
+			flex-wrap: wrap;
+			flex-direction: row;
 			justify-content: center;
 			align-items: center;
+			max-width: 70%;
 
 			li {
+				// flex: 1 0;
 				margin: 6px;
-				font-size: 20px;
+				font-size: 15px;
 				color: #F2F2F2;
 				font-weight: 500;
 				border-radius: 5px;
@@ -132,6 +145,10 @@ header {
 				font-family: 'Righteous', cursive;
 			}
 
+			li.pos-title {
+				// width: 0.2em;
+			}
+
 			li:hover {
 				cursor: pointer;
 				transform: scale(0.9);
@@ -139,27 +156,35 @@ header {
 
 
 			#noun {
-				background-color: #8C271E;
+				background-color: #4F5D2F;
 			}
 
 			#verb {
-				background-color: #242331;
+				background-color: #C75000;
 			}
 
 			#adjective {
-				background-color: #2D728F;
+				background-color: #7C90A0;
 			}
 
 			#adverb {
-				background-color: #D58936;
+				background-color: #D5A021;
 			}
 
 			#article {
-				background-color: #698F3F;
+				background-color: #673C4F;
 			}
 
 			#pronoun {
-				background-color: #8E7195;
+				background-color: #BC5F04;
+			}
+
+			#preposition {
+				background-color: #12263A;
+			}
+
+			#conjunction {
+				background-color: #3C787E;
 			}
 		}
 	}

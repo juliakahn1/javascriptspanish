@@ -97,8 +97,16 @@ header ul li {
 
 .main {
   display: flex;
-  justify-content: space-around;
-  margin-top: 75px;
+  justify-content: space-evenly;
+  margin: 5em 8.1em 0 8.1em;
+}
+.main .poem {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .main .poem ul {
   display: flex;
@@ -106,20 +114,25 @@ header ul li {
 }
 .main .poem ul li {
   margin: 3px;
-  font-size: 25px;
+  font-size: 1.8vw;
 }
 .main .verbs {
-  display: flex;
-}
-.main .verbs .verb-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.main .verbs .verb-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+}
 .main .verbs .verb-list li {
   margin: 6px;
-  font-size: 20px;
+  font-size: 15px;
   color: #F2F2F2;
   font-weight: 500;
   border-radius: 5px;
@@ -133,20 +146,26 @@ header ul li {
   transform: scale(0.9);
 }
 .main .verbs .verb-list #noun {
-  background-color: #8C271E;
+  background-color: #4F5D2F;
 }
 .main .verbs .verb-list #verb {
-  background-color: #242331;
+  background-color: #C75000;
 }
 .main .verbs .verb-list #adjective {
-  background-color: #2D728F;
+  background-color: #7C90A0;
 }
 .main .verbs .verb-list #adverb {
-  background-color: #D58936;
+  background-color: #D5A021;
 }
 .main .verbs .verb-list #article {
-  background-color: #698F3F;
+  background-color: #673C4F;
 }
 .main .verbs .verb-list #pronoun {
-  background-color: #8E7195;
+  background-color: #BC5F04;
+}
+.main .verbs .verb-list #preposition {
+  background-color: #12263A;
+}
+.main .verbs .verb-list #conjunction {
+  background-color: #3C787E;
 }
