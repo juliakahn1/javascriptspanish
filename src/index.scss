@@ -20,7 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	vertical-align: baseline;
 
 }
@@ -57,10 +58,11 @@ header {
 	justify-content:space-between;
 	margin: 10px;
 	padding: 10px;
-	background: #0B3142;;
 
 	h1 {
 		display: flex;
+		font-size: 20px;
+		font-weight: 500;
 	}
 
 	ul {
@@ -74,14 +76,30 @@ header {
 	}
 }
 
+.poem-metadata {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+
+	h2 {
+		font-size: 35px;
+		font-weight: 400;
+		margin-top: 40;
+		margin-bottom: 14px;
+		font-family: 'Yeseva One', cursive;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+}
 
 .main {
 	display: flex;
 	justify-content: space-around;
+	margin-top: 75px;
 
 	.poem {
-		margin: 100px;
-
 		ul {
 			display: flex;
 			margin: 5px;
@@ -95,6 +113,54 @@ header {
 
 	.verbs {
 		display: flex;
-		margin: 100px;
+
+		.verb-list {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			li {
+				margin: 6px;
+				font-size: 25px;
+				color: #F2F2F2;
+				font-weight: 500;
+				border-radius: 5px;
+				padding: 12px;
+				text-transform:uppercase;
+				transition: all .2s ease-in-out;
+				font-family: 'Righteous', cursive;
+			}
+
+			li:hover {
+				cursor: pointer;
+				transform: scale(0.9);
+			}
+
+
+			#noun {
+				background-color: #8C271E;
+			}
+
+			#verb {
+				background-color: #242331;
+			}
+
+			#adjective {
+				background-color: #2D728F;
+			}
+
+			#adverb {
+				background-color: #D58936;
+			}
+
+			#article {
+				background-color: #698F3F;
+			}
+
+			#pronoun {
+				background-color: #8E7195;
+			}
+		}
 	}
 }

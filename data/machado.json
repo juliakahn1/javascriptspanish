@@ -403,5 +403,10 @@
             "part_of_speech": "noun",
             "verb_subset": ""
         }
+    },
+
+    "metadata" : {
+        "title" : "Caminante, no hay camino",
+        "poet" : "Antonio Machado"
     }
 }
