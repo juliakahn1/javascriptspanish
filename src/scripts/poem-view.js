@@ -29,12 +29,17 @@ class PoemView {
         const lineCount = Object.keys(this.poem).length
 
         for (let lineNum = 0; lineNum < lineCount - 1; lineNum++) { // exclude metadata
-            const ul = document.createElement("ul")
-            const filledLine = this.populateLine(this.poem[lineNum], ul)
-            filledLine.classList.add(`line-${lineNum}-spanish`)
-            this.poemEl.append(filledLine)
+            if (this.poem[lineNum] === "break") {
+                const br = document.createElement("br")
+                br.classList.add(`line-${lineNum}-spanish`)
+                this.poemEl.append(br)
+            } else {
+                const ul = document.createElement("ul")
+                const filledLine = this.populateLine(this.poem[lineNum], ul)
+                filledLine.classList.add(`line-${lineNum}-spanish`)
+                this.poemEl.append(filledLine)
+            }
         }
-
         this.displayMetaData()
     }
 

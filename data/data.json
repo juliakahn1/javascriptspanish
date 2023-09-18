@@ -957,7 +957,7 @@
           }
         },
 
-        "2-break" : {},
+        "2" : "break",
 
         "3": {
           "translation": "And the hour when you fell won't extinguish,",
@@ -1185,7 +1185,7 @@
         },
 
 
-        "6-break" : {},
+        "6" : "break",
 
         "7": {
           "translation": "A thousand nights will fall with their dark wings,",
@@ -1296,7 +1296,7 @@
           }
         },
 
-        "9-break" : {},
+        "9" : "break",
 
         "10": {
           "translation": "The day we all await throughout the world,",
@@ -1414,7 +1414,7 @@
           }
         },
 
-        "12-break" : {},
+        "12" : "break",
 
         "13": {
           "translation": "A day of justice achieved in the struggle,",
