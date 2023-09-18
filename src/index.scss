@@ -64,13 +64,13 @@ header {
 	h1 {
 		display: flex;
 		font-size: 20px;
-		font-weight: 500;
+		font-weight: 300;
 	}
 
 	ul {
 		display: flex;
 		font-size: 18px;
-		font-weight: 400;
+		font-weight: 300;
 		font-family: 'Roboto', sans-serif;
 
 		li {
@@ -94,7 +94,7 @@ header {
 				color: rgb(0, 0, 0);
 				border: none;
 				font-size: 18px;
-				font-weight: 400;
+				font-weight: 300;
 				cursor: pointer;
 				padding-bottom: 10px;
 			}
@@ -172,17 +172,26 @@ header {
 			display: flex;
 			margin: 5px;
 			cursor: pointer;
+			position: relative;
 
-			.tooltiptext {
+			span.tooltiptext {
 				visibility: hidden;
+				width: max-content;
+				background-color: #e8e8e8;;
+				box-shadow: 0px 1px 1px 0px rgb(56, 56, 56, 2);
+				color: black;
 				text-align: center;
-				padding: 5px;
-				border-radius: 6px;
-				// z-index: 1;
-				width: 200px;
-				bottom: 100%;
+				padding: 5%;
+				border-radius: 3.5px;
+				font-size: 1.5vw;
+
+				position: absolute;
+				z-index: 1;
+				top: 100%;
 				left: 50%;
-				// margin-bottom:- 100px;
+				margin-top: 2%;
+				margin-left: -50%;
+
 			}
 
 			&:hover .tooltiptext{
@@ -230,7 +239,6 @@ header {
 					background-color: #60d8d0;
 				}
 			}
-
 		}
 	}
 
@@ -257,18 +265,14 @@ header {
 			max-width: 50%;
 
 			.pos-tile {
-				margin: 6px;
+				margin: 5px;
 				font-size: 15px;
 				color: #F2F2F2;
 				font-weight: 800;
 				border-radius: 5px;
 				padding: 12px;
-				text-transform:uppercase;
+				text-transform: uppercase;
 				transition: all .2s ease-in-out;
-
-				&.selected {
-					box-shadow: 0px 5px 5px 0px rgb(56, 56, 56);
-				}
 			}
 
 			li:hover {
@@ -278,35 +282,100 @@ header {
 
 
 			#noun {
-				background-color: #0D699A;
+				border-color: #0D699A;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #0D699A;
+
+				&.selected {
+					background-color: #0D699A;
+					color: #F2F2F2;
+				}
 			}
 
 			#verb {
-				background-color: #768948;
+				border-color: #768948;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #768948;
+
+				&.selected {
+					background-color: #768948;
+					color: #F2F2F2;
+				}
 			}
 
 			#adjective {
-				background-color: #EC7200;
+				border-color: #EC7200;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #EC7200;
+
+				&.selected {
+					background-color: #EC7200;
+					color: #F2F2F2;
+				}
+
 			}
 
 			#adverb {
-				background-color: #CA3F69;
+				border-color: #d43766;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #CA3F69;
+
+				&.selected {
+					background-color: #d43766;
+					color: #F2F2F2;
+				}
 			}
 
 			#article {
-				background-color: #A50104;
+				border-color: #A50104;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #A50104;
+
+				&.selected {
+					background-color: #A50104;
+					color: #F2F2F2;
+				}
 			}
 
 			#pronoun {
-				background-color: #39304A;
+				border-color: #39304A;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #39304A;
+
+				&.selected {
+					background-color: #39304A;
+					color: #F2F2F2;
+				}
 			}
 
 			#preposition {
-				background-color: #D5A021;
+				border-color: #D5A021;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #D5A021;
+
+				&.selected {
+					background-color: #D5A021;
+					color: #F2F2F2;
+				}
 			}
 
 			#conjunction {
-				background-color: #288F88;
+				border-color: #288F88;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #288F88;
+
+				&.selected {
+					background-color: #288F88;
+					color: #F2F2F2;
+				}
 			}
 		}
 	}

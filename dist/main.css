@@ -69,12 +69,12 @@ header {
 header h1 {
   display: flex;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 header ul {
   display: flex;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Roboto", sans-serif;
 }
 header ul li {
@@ -95,7 +95,7 @@ header ul li .dropdown-button {
   color: rgb(0, 0, 0);
   border: none;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer;
   padding-bottom: 10px;
 }
@@ -160,15 +160,24 @@ header ul li .dropdown:hover .dropdown-content {
   display: flex;
   margin: 5px;
   cursor: pointer;
+  position: relative;
 }
-.main .poem ul .tooltiptext {
+.main .poem ul span.tooltiptext {
   visibility: hidden;
+  width: max-content;
+  background-color: #e8e8e8;
+  box-shadow: 0px 1px 1px 0px rgb(56, 56, 56);
+  color: black;
   text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-  width: 200px;
-  bottom: 100%;
+  padding: 5%;
+  border-radius: 3.5px;
+  font-size: 1.5vw;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
   left: 50%;
+  margin-top: 2%;
+  margin-left: -50%;
 }
 .main .poem ul:hover .tooltiptext {
   visibility: visible;
@@ -227,7 +236,7 @@ header ul li .dropdown:hover .dropdown-content {
   max-width: 50%;
 }
 .main .pos .pos-list .pos-tile {
-  margin: 6px;
+  margin: 5px;
   font-size: 15px;
   color: #F2F2F2;
   font-weight: 800;
@@ -236,34 +245,87 @@ header ul li .dropdown:hover .dropdown-content {
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
-.main .pos .pos-list .pos-tile.selected {
-  box-shadow: 0px 5px 5px 0px rgb(56, 56, 56);
-}
 .main .pos .pos-list li:hover {
   cursor: pointer;
   transform: scale(0.9);
 }
 .main .pos .pos-list #noun {
+  border-color: #0D699A;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #0D699A;
+}
+.main .pos .pos-list #noun.selected {
   background-color: #0D699A;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #verb {
+  border-color: #768948;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #768948;
+}
+.main .pos .pos-list #verb.selected {
   background-color: #768948;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #adjective {
+  border-color: #EC7200;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #EC7200;
+}
+.main .pos .pos-list #adjective.selected {
   background-color: #EC7200;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #adverb {
-  background-color: #CA3F69;
+  border-color: #d43766;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #CA3F69;
+}
+.main .pos .pos-list #adverb.selected {
+  background-color: #d43766;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #article {
+  border-color: #A50104;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #A50104;
+}
+.main .pos .pos-list #article.selected {
   background-color: #A50104;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #pronoun {
+  border-color: #39304A;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #39304A;
+}
+.main .pos .pos-list #pronoun.selected {
   background-color: #39304A;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #preposition {
+  border-color: #D5A021;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #D5A021;
+}
+.main .pos .pos-list #preposition.selected {
   background-color: #D5A021;
+  color: #F2F2F2;
 }
 .main .pos .pos-list #conjunction {
+  border-color: #288F88;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #288F88;
+}
+.main .pos .pos-list #conjunction.selected {
   background-color: #288F88;
+  color: #F2F2F2;
 }
