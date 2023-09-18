@@ -1039,7 +1039,7 @@
             "order_id": 28,
             "line_id": 2,
             "word": "miles",
-            "part_of_speech": "number",
+            "part_of_speech": "adjective",
             "verb_subset": ""
           },
           "2": {
@@ -1199,7 +1199,7 @@
             "order_id": 49,
             "line_id": 1,
             "word": "Mil",
-            "part_of_speech": "number",
+            "part_of_speech": "adjective",
             "verb_subset": ""
           },
           "1": {

@@ -27,7 +27,6 @@ class DropdownView {
             this.dropdownEl.append(p)
         })
     }
-
 }
 
 export default DropdownView;

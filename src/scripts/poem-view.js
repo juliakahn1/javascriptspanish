@@ -36,7 +36,10 @@ class PoemView {
             } else {
                 const ul = document.createElement("ul")
                 const filledLine = this.populateLine(this.poem[lineNum], ul)
-                filledLine.classList.add(`line-${lineNum}-spanish`)
+                filledLine.classList.add(`${lineNum}`)
+                this.addToolTip(filledLine)
+                filledLine.addEventListener("mouseenter", this.translateLine.bind(this))
+
                 this.poemEl.append(filledLine)
             }
         }
@@ -54,6 +57,15 @@ class PoemView {
         return ul
     }
 
+    addToolTip(line) {
+        const tooltipEl = document.createElement("span")
+        tooltipEl.classList.add("tooltiptext")
+        const translation = this.poem[line.classList].translation // should be line num
+        tooltipEl.innerText = translation
+        line.classList.add("tooltip")
+        line.append(tooltipEl)
+    }
+
     displayMetaData() {
         // title
         const h2 = document.createElement("h2")
@@ -64,6 +76,15 @@ class PoemView {
         const h3 = document.createElement("h3")
         h3.append("por " + this.poem.metadata.poet)
         this.metaData.append(h3)
+    }
+
+    translateLine(e) {
+        e.preventDefault()
+        const line = e.target
+        const lineNum = line.classList[0]
+        const translation = (this.poem[lineNum].translation)
+        // toggle class for new styling
+        // make tooltip appear
     }
 }
 

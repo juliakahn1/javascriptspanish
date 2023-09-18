@@ -17,7 +17,6 @@ class PartsOfSpeechView {
         this.posEl.addEventListener("click", this.highlightWords)
     }
 
-
     createWordTag(partOfSpeech) {
         const li = document.createElement("li")
         li.innerText = partOfSpeech
@@ -25,7 +24,6 @@ class PartsOfSpeechView {
         li.setAttribute("id", `${partOfSpeech}`)
         return li
     }
-
 
     highlightWords(e) {
         e.preventDefault()
@@ -40,6 +38,13 @@ class PartsOfSpeechView {
         })
     }
 
+    // reset all classes to ".pos-tile"
+    clearSelected() {
+        const tiles = document.querySelectorAll(`.pos-tile`)
+        tiles.forEach(tile => {
+            tile.classList.remove("selected")
+        })
+    }
 }
 
 export default PartsOfSpeechView;

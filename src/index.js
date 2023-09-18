@@ -15,7 +15,7 @@ const posEl = document.querySelector(".pos")
 // dropdown menu, nav elements go inside this
 const dropdownEl = document.querySelector(".dropdown-content")
 
-// load default poem
+// load default poem — can also load blank page
 const poem = new PoemView(poemEl, "Caminante, no hay camino", poemMetaData)
 window.poem = poem
 
@@ -31,6 +31,7 @@ dropdownEl.addEventListener("click", (e) => {
 
     poemMetaData.replaceChildren([]);
     poemEl.replaceChildren([])
+    pos.clearSelected()
 
     const poem = new PoemView(poemEl, e.target.innerHTML, poemMetaData)
 });
