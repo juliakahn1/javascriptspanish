@@ -1020,7 +1020,9 @@
           "8": {
             "order_id": 26,
             "line_id": 9,
-            "word": "caísteis,"
+            "word": "caísteis,",
+            "part_of_speech": "verb",
+            "verb_subset": "preterite"
           }
         },
 
@@ -1071,7 +1073,9 @@
           "6": {
             "order_id": 33,
             "line_id": 7,
-            "word": "silencio."
+            "word": "silencio.",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1129,7 +1133,9 @@
           "7": {
             "order_id": 41,
             "line_id": 8,
-            "word": "plaza,"
+            "word": "plaza,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1234,7 +1240,9 @@
           "6": {
             "order_id": 55,
             "line_id": 7,
-            "word": "oscuras,"
+            "word": "oscuras,",
+            "part_of_speech": "adjective",
+            "verb_subset": ""
           }
         },
 
@@ -1292,7 +1300,9 @@
           "7": {
             "order_id": 63,
             "line_id": 8,
-            "word": "muertos."
+            "word": "muertos.",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1359,7 +1369,9 @@
           "8": {
             "order_id": 72,
             "line_id": 9,
-            "word": "mundo"
+            "word": "mundo",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1410,7 +1422,9 @@
           "6": {
             "order_id": 79,
             "line_id": 7,
-            "word": "sufrimiento."
+            "word": "sufrimiento.",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1565,7 +1579,9 @@
           "6": {
             "order_id": 100,
             "line_id": 7,
-            "word": "día"
+            "word": "día",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 

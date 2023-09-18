@@ -73,16 +73,31 @@ header h1 {
 }
 header ul {
   display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
 header ul li {
   display: inline;
   margin: 7px;
-  font-size: 18px;
+}
+header ul li a {
+  text-decoration: none;
+}
+header ul li img {
+  width: 20px;
+  height: 20px;
+}
+header ul li img#linkedin {
+  width: 23px;
 }
 header ul li .dropdown-button {
   color: rgb(0, 0, 0);
   border: none;
   font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  padding-bottom: 10px;
 }
 header ul li .dropdown {
   position: relative;
@@ -92,9 +107,10 @@ header ul li .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  right: 0;
 }
 header ul li .dropdown-content p {
   color: black;
@@ -105,12 +121,10 @@ header ul li .dropdown-content p {
 }
 header ul li .dropdown-content p:hover {
   background-color: #ddd;
+  cursor: pointer;
 }
 header ul li .dropdown:hover .dropdown-content {
   display: block;
-}
-header ul li .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 .poem-metadata {
@@ -132,7 +146,7 @@ header ul li .dropdown:hover .dropbtn {
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin: 5em 8.1em 0 8.1em;
+  margin: 5em 8.1em 5em 8.1em;
 }
 .main .poem {
   min-width: 50%;
@@ -141,6 +155,8 @@ header ul li .dropdown:hover .dropbtn {
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+  height: 100%;
+  overflow: scroll;
 }
 .main .poem ul {
   display: flex;
