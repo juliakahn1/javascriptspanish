@@ -155,8 +155,6 @@ header ul li .dropdown:hover .dropdown-content {
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  height: 100%;
-  overflow: scroll;
 }
 .main .poem ul {
   display: flex;
@@ -194,8 +192,15 @@ header ul li .dropdown:hover .dropdown-content {
 .main .poem ul .selected.conjunction {
   background-color: #60d8d0;
 }
+.main .pos-placeholder {
+  width: 50%;
+}
 .main .pos {
+  position: fixed;
+  z-index: 1;
   display: flex;
+  margin-left: 50%;
+  margin-top: 6%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -206,7 +211,7 @@ header ul li .dropdown:hover .dropdown-content {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 70%;
+  max-width: 50%;
 }
 .main .pos .pos-list .pos-tile {
   margin: 6px;

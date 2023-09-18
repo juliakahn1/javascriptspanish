@@ -58,6 +58,8 @@ header {
 	justify-content:space-between;
 	margin: 10px;
 	padding: 10px;
+	// overflow: hidden;
+	// position: fixed;
 
 	h1 {
 		display: flex;
@@ -165,8 +167,6 @@ header {
 		align-content: center;
 		justify-content: flex-start;
 		flex-wrap: wrap;
-		height: 100%;
-		overflow: scroll;
 
 		ul {
 			display: flex;
@@ -217,8 +217,16 @@ header {
 		}
 	}
 
+	.pos-placeholder {
+		width: 50%;
+	}
+
 	.pos {
+		position: fixed;
+		z-index: 1;
 		display: flex;
+		margin-left: 50%;
+		margin-top: 6%;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -229,7 +237,7 @@ header {
 			flex-direction: row;
 			justify-content: center;
 			align-items: center;
-			max-width: 70%;
+			max-width: 50%;
 
 			.pos-tile {
 				margin: 6px;
