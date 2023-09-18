@@ -10,7 +10,7 @@ class PoemView {
     }
 
     grabPoem(poemName)  {
-        const res = fetch(`./data/${poemName}.json`)
+        const res = fetch(`./data/data.json`)
             .then(res => {
                 if (res.ok) {
                     return res.json()
@@ -19,14 +19,13 @@ class PoemView {
                 }
             })
             .then(retrieval => {
-                this.poem = retrieval
+                this.poem = retrieval[poemName]
                 this.setUpPoem()
             })
             .catch(errorResponse => console.log(errorResponse))
     }
 
     setUpPoem() {
-        // console.log(this.poem)
         const lineCount = Object.keys(this.poem).length
 
         for (let lineNum = 0; lineNum < lineCount - 1; lineNum++) { // exclude metadata

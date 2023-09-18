@@ -1,9 +1,10 @@
 import PoemView from "./scripts/poem-view"
 import PartsOfSpeechView from "./scripts/parts-of-speech-view"
-
+import DropdownView from "./scripts/dropdown-view"
 
 window.PoemView = PoemView
 window.PartsOfSpeechView = PartsOfSpeechView
+window.DropdownView = DropdownView
 
 // container for title/poet
 const poemMetaData = document.querySelector(".poem-metadata")
@@ -11,21 +12,25 @@ const poemMetaData = document.querySelector(".poem-metadata")
 const poemEl = document.querySelector(".poem");
 // container for parts of speech
 const posEl = document.querySelector(".pos")
+// dropdown menu, nav elements go inside this
+const dropdownEl = document.querySelector(".dropdown-content")
 
-
-// testing — CHANGE TO DROPDOWN
-const poem = new PoemView(poemEl, "machado", poemMetaData)
+// load default poem
+const poem = new PoemView(poemEl, "Caminante, no hay camino", poemMetaData)
 window.poem = poem
+
+const dropdown = new DropdownView(dropdownEl)
+window.dropdown = dropdown
 
 const pos = new PartsOfSpeechView(posEl)
 window.pos = pos
 
+// event listener for dropdown poem selector
+dropdownEl.addEventListener("click", (e) => {
+    e.preventDefault()
 
-// pass in poem that is selected
-// event listener on nav button for poem
+    poemMetaData.replaceChildren([]);
+    poemEl.replaceChildren([])
 
-
-// EVENTS
-
-// when tile is clicked and unclicked
-    // change the class of the words with the matching class (i.e. verb => highlighted-verb)
+    const poem = new PoemView(poemEl, e.target.innerHTML, poemMetaData)
+});
