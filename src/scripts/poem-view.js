@@ -1,10 +1,7 @@
 class PoemView {
     constructor(poemEl, poemName, poemMetaData) {
-        // poem div from the HTML via index.js
         this.poemEl = poemEl
-        // currently-selected poem name based on the nav
         this.poemName = poemName
-        // poem from data folder
         this.poem = this.grabPoem(poemName)
         this.metaData = poemMetaData
     }
@@ -38,9 +35,8 @@ class PoemView {
                 const filledLine = this.populateLine(this.poem[lineNum], ul)
                 filledLine.classList.add(`${lineNum}`)
                 this.addToolTip(filledLine)
-                filledLine.addEventListener("mouseenter", this.highlightLine.bind(this))
-                filledLine.addEventListener("mouseleave", this.unhighlightLine.bind(this))
-
+                // filledLine.addEventListener("mouseenter", this.highlightLine.bind(this))
+                // filledLine.addEventListener("mouseleave", this.unhighlightLine.bind(this))
                 this.poemEl.append(filledLine)
             }
         }
@@ -48,10 +44,10 @@ class PoemView {
     }
 
     populateLine(jsonLine, ul) {
-        const wordCount = Object.keys(jsonLine).length - 1 // exclude "translation" key
+        const wordCount = Object.keys(jsonLine).length - 1
         for (let ele = 0; ele < wordCount; ele++) {
             const li = document.createElement("li")
-            li.classList.add(jsonLine[ele].part_of_speech)
+            li.classList.add(jsonLine[ele].part_of_speech, "word")
             li.innerText = jsonLine[ele].word
             ul.append(li)
         }
@@ -77,19 +73,18 @@ class PoemView {
         this.metaData.append(h3)
     }
 
-    // NECESSARY?
 
-    highlightLine(e) {
-        e.preventDefault()
-        const line = e.target
-        line.classList.toggle("highlighted")
-    }
+    // highlightLine(e) {
+    //     e.preventDefault()
+    //     const line = e.target
+    //     line.classList.toggle("highlighted")
+    // }
 
-    unhighlightLine(e) {
-        e.preventDefault()
-        const line = e.target
-        line.classList.toggle("highlighted")
-    }
+    // unhighlightLine(e) {
+    //     e.preventDefault()
+    //     const line = e.target
+    //     line.classList.toggle("highlighted")
+    // }
 }
 
 export default PoemView;
