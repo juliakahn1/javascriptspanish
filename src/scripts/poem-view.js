@@ -68,16 +68,16 @@ class PoemView {
     }
 
     displayMetaData() {
-        // title
         const h2 = document.createElement("h2")
         h2.append(this.poem.metadata.title)
         this.metaData.append(h2)
 
-        // author
         const h3 = document.createElement("h3")
         h3.append("por " + this.poem.metadata.poet)
         this.metaData.append(h3)
     }
+
+    // NECESSARY?
 
     highlightLine(e) {
         e.preventDefault()
