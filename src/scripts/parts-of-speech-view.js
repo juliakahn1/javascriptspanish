@@ -3,9 +3,9 @@ class PartsOfSpeechView {
     constructor(posEl, poemEl) {
         this.posEl = posEl
         this.categories = ["verb", "noun", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"] // populate from poem
-        this.subVerbs = ["present"] // can get this from current poem
+        this.subVerbs = ["infinitive"] // can get this from current poem
         this.populateWordTiles()
-        console.log(poemEl)
+        this.poemEl = poemEl
     }
 
     populateWordTiles() {
@@ -19,7 +19,7 @@ class PartsOfSpeechView {
             if (newTile.id === "verb") verbTile = newTile
         })
 
-        this.createSubVerbs(ul, verbTile)
+        this.createSubVerbs(verbTile)
         this.createClearTile(ul)
 
         this.posEl.append(ul)
@@ -37,14 +37,17 @@ class PartsOfSpeechView {
         return li
     }
 
-    createSubVerbs(ul, verbTile) {
+    createSubVerbs(verbTile) {
         const li = document.createElement("li")
+        // const div = document.createElement("div")
         this.subVerbs.forEach(subverb => {
             li.innerText = subverb
             li.classList.add("pos-tile", "subverb", "disabled")
             li.setAttribute("id", `${subverb}`)
+            verbTile.after(li)
         })
-        verbTile.after(li)
+        // div.addEventListener("click", this.highlightWords.bind(this))
+        // verbTile.after(div)
     }
 
     // hidden unless event listener is triggered
@@ -58,31 +61,34 @@ class PartsOfSpeechView {
 
     highlightWords(e) {
         e.preventDefault()
-        // find the part of speech of button
         const buttonId = e.target.id
-
-        if (buttonId !== "clear-tile") {
-            // give button new style
+        if (e.srcElement.classList.contains("subverb")) {
+            const verbWords = document.querySelectorAll(".verb")
+            verbWords.forEach(word => {
+                if (word.classList.contains("verb") && !word.classList.contains(buttonId)) {
+                    word.classList.remove("selected")
+                }
+            })
+        } else if (buttonId !== "clear-tile") {
             e.srcElement.classList.toggle("selected")
-            // fetch matching words in poem
             const changingWords = document.querySelectorAll(`.${buttonId}`)
-            // apply different style
             changingWords.forEach(word => word.classList.toggle("selected"))
 
-            // activate or deactivate clear button
             const clearTile = document.getElementById("clear-tile")
             const tiles = Array.from(document.querySelectorAll(".pos-tile"))
 
-            // behaviors for whether any tile is selected
             if (tiles.some(tile => tile.classList.contains("selected"))) {
                 clearTile.classList.remove("disabled")
             } else {
                 clearTile.classList.add("disabled")
             }
         } else {
-            // clear all
             this.clearSelected()
         }
+    }
+
+    subVerbHighligher() {
+
     }
 
     // reset buttons and poem words
@@ -94,9 +100,9 @@ class PartsOfSpeechView {
         })
     }
 
+    // show subverbs when verb tile is clicked
     expandVerbs(e) {
         e.preventDefault()
-        // collect all buttons
         const subVerbTiles = document.querySelectorAll(".subverb")
         subVerbTiles.forEach(tile => {
             tile.classList.remove("selected")
