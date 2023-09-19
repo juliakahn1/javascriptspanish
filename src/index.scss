@@ -212,7 +212,7 @@ header {
 			}
 
 			&:hover {
-				transform: scale(1.05);
+				transform: scale(1.02);
 			}
 
 			// words in a line
@@ -259,6 +259,10 @@ header {
 				&.conjunction{
 					background-color: #60d8d0;
 				}
+
+				// &#subverb {
+				// 	background-color: #d8eea6;
+				// }
 			}
 		}
 	}
@@ -272,7 +276,6 @@ header {
 		z-index: 1;
 		display: flex;
 		margin-left: 63%;
-		margin-top: 3%;
 		flex-direction: column;
 		align-items: flex-start;
 
@@ -286,22 +289,39 @@ header {
 
 			.pos-tile {
 				margin: 3%;
-				font-size: 15px;
-				color: #F2F2F2;
+				font-size: 0.9em;
 				font-weight: 800;
 				border-radius: 5px;
-				padding: 10px;
+				padding: 5%;
 				text-transform: uppercase;
 				transition: all .2s ease-in-out;
 
 				&#clear-tile {
-					color: #d22525;
+					color: #f70d0d;
 
 					&.disabled {
 						color: rgb(188, 188, 188);
 						transform: none;
 						cursor: unset ;
 					}
+				}
+			}
+
+
+			.subverb {
+				border-color: #89be0d;
+				outline-width: 2px;
+				outline-style: solid;
+				color: #89be0d;
+
+				&.disabled {
+					// visibility: hidden;
+					display: none;
+				}
+
+				&.selected {
+					background-color: #89be0d;
+					color: #F2F2F2;
 				}
 			}
 

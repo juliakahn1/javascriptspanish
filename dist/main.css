@@ -189,7 +189,7 @@ header .poem-metadata h3 {
   visibility: visible;
 }
 .main .poem ul:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .main .poem ul li {
   margin: 2px;
@@ -233,7 +233,6 @@ header .poem-metadata h3 {
   z-index: 1;
   display: flex;
   margin-left: 63%;
-  margin-top: 3%;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -247,21 +246,33 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .pos-tile {
   margin: 3%;
-  font-size: 15px;
-  color: #F2F2F2;
+  font-size: 0.9em;
   font-weight: 800;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5%;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
 .main .pos .pos-list .pos-tile#clear-tile {
-  color: #d22525;
+  color: #f70d0d;
 }
 .main .pos .pos-list .pos-tile#clear-tile.disabled {
   color: rgb(188, 188, 188);
   transform: none;
   cursor: unset;
+}
+.main .pos .pos-list .subverb {
+  border-color: #89be0d;
+  outline-width: 2px;
+  outline-style: solid;
+  color: #89be0d;
+}
+.main .pos .pos-list .subverb.disabled {
+  display: none;
+}
+.main .pos .pos-list .subverb.selected {
+  background-color: #89be0d;
+  color: #F2F2F2;
 }
 .main .pos .pos-list li:hover {
   cursor: pointer;

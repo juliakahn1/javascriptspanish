@@ -1,20 +1,28 @@
 class PartsOfSpeechView {
 
-    constructor(posEl) {
+    constructor(posEl, poemEl) {
         this.posEl = posEl
+        this.categories = ["verb", "noun", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"] // populate from poem
+        this.subVerbs = ["present"] // can get this from current poem
         this.populateWordTiles()
+        console.log(poemEl)
     }
 
     populateWordTiles() {
-        const categories = ["noun", "verb", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"]
         const ul = document.createElement("ul")
         ul.classList.add("pos-list")
-        categories.forEach(partOfSpeech => {
-            ul.append(this.createWordTile(partOfSpeech))
-        })
-        this.createClearTile(ul)
-        this.posEl.append(ul)
+        let verbTile
 
+        this.categories.forEach(partOfSpeech => {
+            const newTile = this.createWordTile(partOfSpeech)
+            ul.append(newTile)
+            if (newTile.id === "verb") verbTile = newTile
+        })
+
+        this.createSubVerbs(ul, verbTile)
+        this.createClearTile(ul)
+
+        this.posEl.append(ul)
         this.posEl.addEventListener("click", this.highlightWords.bind(this))
     }
 
@@ -23,7 +31,20 @@ class PartsOfSpeechView {
         li.innerText = partOfSpeech
         li.classList.add("pos-tile")
         li.setAttribute("id", `${partOfSpeech}`)
+        if (partOfSpeech === "verb") {
+            li.addEventListener("click", this.expandVerbs.bind(this))
+        }
         return li
+    }
+
+    createSubVerbs(ul, verbTile) {
+        const li = document.createElement("li")
+        this.subVerbs.forEach(subverb => {
+            li.innerText = subverb
+            li.classList.add("pos-tile", "subverb", "disabled")
+            li.setAttribute("id", `${subverb}`)
+        })
+        verbTile.after(li)
     }
 
     // hidden unless event listener is triggered
@@ -46,26 +67,45 @@ class PartsOfSpeechView {
             // fetch matching words in poem
             const changingWords = document.querySelectorAll(`.${buttonId}`)
             // apply different style
-            changingWords.forEach(word => {
-                word.classList.toggle("selected")
-            })
-            // activate clear button
+            changingWords.forEach(word => word.classList.toggle("selected"))
+
+            // activate or deactivate clear button
             const clearTile = document.getElementById("clear-tile")
-            clearTile.classList.remove("disabled")
+            const tiles = Array.from(document.querySelectorAll(".pos-tile"))
+
+            // behaviors for whether any tile is selected
+            if (tiles.some(tile => tile.classList.contains("selected"))) {
+                clearTile.classList.remove("disabled")
+            } else {
+                clearTile.classList.add("disabled")
+            }
         } else {
+            // clear all
             this.clearSelected()
         }
     }
 
-    // reset all classes to ".pos-tile"
+    // reset buttons and poem words
     clearSelected() {
         const tiles = document.querySelectorAll(".pos-tile, .word")
-        // add deselected to button
         tiles.forEach(tile => {
             tile.classList.remove("selected")
             if (tile.id === "clear-tile") tile.classList.add("disabled")
         })
     }
+
+    expandVerbs(e) {
+        e.preventDefault()
+        // collect all buttons
+        const subVerbTiles = document.querySelectorAll(".subverb")
+        subVerbTiles.forEach(tile => {
+            tile.classList.toggle("disabled")
+        })
+    }
+
+    // populateVerbs(li) {
+
+    // }
 }
 
 export default PartsOfSpeechView;

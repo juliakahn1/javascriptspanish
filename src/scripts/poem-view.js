@@ -48,6 +48,10 @@ class PoemView {
         for (let ele = 0; ele < wordCount; ele++) {
             const li = document.createElement("li")
             li.classList.add(jsonLine[ele].part_of_speech, "word")
+            if (jsonLine[ele].verb_subset) {
+                li.classList.add(jsonLine[ele].verb_subset)
+                li.setAttribute("id", "subverb")
+            }
             li.innerText = jsonLine[ele].word
             ul.append(li)
         }
