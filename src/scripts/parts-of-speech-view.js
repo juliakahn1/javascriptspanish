@@ -99,13 +99,10 @@ class PartsOfSpeechView {
         // collect all buttons
         const subVerbTiles = document.querySelectorAll(".subverb")
         subVerbTiles.forEach(tile => {
+            tile.classList.remove("selected")
             tile.classList.toggle("disabled")
         })
     }
-
-    // populateVerbs(li) {
-
-    // }
 }
 
 export default PartsOfSpeechView;
