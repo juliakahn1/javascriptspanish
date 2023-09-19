@@ -38,7 +38,9 @@ class PoemView {
                 const filledLine = this.populateLine(this.poem[lineNum], ul)
                 filledLine.classList.add(`${lineNum}`)
                 this.addToolTip(filledLine)
-                filledLine.addEventListener("mouseover", this.highlightLine.bind(this))
+                filledLine.addEventListener("mouseenter", this.highlightLine.bind(this))
+                filledLine.addEventListener("mouseleave", this.unhighlightLine.bind(this))
+
                 this.poemEl.append(filledLine)
             }
         }
@@ -66,10 +68,12 @@ class PoemView {
     }
 
     displayMetaData() {
+        // title
         const h2 = document.createElement("h2")
         h2.append(this.poem.metadata.title)
         this.metaData.append(h2)
 
+        // author
         const h3 = document.createElement("h3")
         h3.append("por " + this.poem.metadata.poet)
         this.metaData.append(h3)
@@ -79,8 +83,12 @@ class PoemView {
         e.preventDefault()
         const line = e.target
         line.classList.toggle("highlighted")
-        // toggle class for new styling
-        // make tooltip appear
+    }
+
+    unhighlightLine(e) {
+        e.preventDefault()
+        const line = e.target
+        line.classList.toggle("highlighted")
     }
 }
 
