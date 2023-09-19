@@ -26,6 +26,7 @@ time, mark, audio, video {
   font-weight: 300;
   vertical-align: baseline;
   background-color: #F2F2F2;
+  color: #3d3d3d;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -59,21 +60,28 @@ table {
 
 header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 2.1em;
+}
+header .nav-bar {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 11%;
-  background-color: #e7e7e7;
-  position: fixed;
   width: 100%;
+  height: 4em;
+  border-bottom: 0.15px solid rgb(85, 85, 85);
 }
 header h1 {
   font-size: 20px;
   font-weight: 300;
-  background-color: #e7e7e7;
   padding-left: 1%;
+  font-family: "Yeseva One", cursive;
 }
 header ul.menu-nav {
-  background-color: #e7e7e7;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -82,21 +90,17 @@ header ul.menu-nav {
 }
 header ul.menu-nav li, header ul.menu-nav a {
   margin: 7px;
-  background-color: #e7e7e7;
 }
 header ul.menu-nav li img, header ul.menu-nav a img {
   width: 20px;
   height: 20px;
-  background-color: #e7e7e7;
 }
 header ul.menu-nav li img#linkedin, header ul.menu-nav a img#linkedin {
   width: 23px;
-  background-color: #e7e7e7;
 }
 header ul.menu-nav li .dropdown, header ul.menu-nav a .dropdown {
   position: relative;
   display: inline-block;
-  background-color: #e7e7e7;
 }
 header ul.menu-nav li .dropdown-button, header ul.menu-nav a .dropdown-button {
   color: rgb(0, 0, 0);
@@ -105,12 +109,10 @@ header ul.menu-nav li .dropdown-button, header ul.menu-nav a .dropdown-button {
   font-weight: 300;
   cursor: pointer;
   margin: 7px;
-  background-color: #e7e7e7;
 }
 header ul.menu-nav li .dropdown-content, header ul.menu-nav a .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #F2F2F2;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -130,29 +132,28 @@ header ul.menu-nav li .dropdown-content p:hover, header ul.menu-nav a .dropdown-
 header ul.menu-nav li .dropdown:hover .dropdown-content, header ul.menu-nav a .dropdown:hover .dropdown-content {
   display: block;
 }
-
-.poem-metadata {
+header .poem-metadata {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 20%;
   width: 100%;
 }
-.poem-metadata h2 {
+header .poem-metadata h2 {
   font-size: 2.4em;
   font-weight: 400;
-  margin-top: 7%;
-  margin-bottom: 14px;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
   font-family: "Yeseva One", cursive;
 }
-.poem-metadata h3 {
+header .poem-metadata h3 {
   font-size: 15px;
+  margin-bottom: 2em;
 }
 
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin: 5em 8.1em 5em 8.1em;
+  margin: 20em 8.1em 5em 8.1em;
 }
 .main .poem {
   min-width: 50%;
@@ -164,7 +165,7 @@ header ul.menu-nav li .dropdown:hover .dropdown-content, header ul.menu-nav a .d
 }
 .main .poem ul {
   display: flex;
-  margin: 5px;
+  margin: 0.2em;
   cursor: pointer;
 }
 .main .poem ul span.tooltiptext {
@@ -192,7 +193,7 @@ header ul.menu-nav li .dropdown:hover .dropdown-content, header ul.menu-nav a .d
 }
 .main .poem ul li {
   margin: 2px;
-  font-size: 1.8vw;
+  font-size: 1.7vw;
   padding: 3px;
 }
 .main .poem ul .selected {
