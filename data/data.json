@@ -1485,7 +1485,9 @@
           "7": {
             "order_id": 87,
             "line_id": 8,
-            "word": "lucha,"
+            "word": "lucha,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 
@@ -1529,7 +1531,9 @@
           "5": {
             "order_id": 93,
             "line_id": 6,
-            "word": "silencio,"
+            "word": "silencio,",
+            "part_of_speech": "noun",
+            "verb_subset": ""
           }
         },
 

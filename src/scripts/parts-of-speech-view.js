@@ -7,7 +7,9 @@ class PartsOfSpeechView {
         this.posPresent = posPresent
         this.state = {}
 
-        this.posPresent.forEach(pos => this.state[pos] = false)
+        this.posPresent.forEach(pos => {
+            if (pos !== undefined) {this.state[pos] = false}
+        })
         this.populateWordTiles()
     }
 

@@ -64,8 +64,9 @@ class PoemView {
     }
 
     trackPoS(pos) {
-        if (!this.posPresent.includes(pos)) { this.posPresent.push(pos) }
-
+        if (!this.posPresent.includes(pos) && pos !== undefined) {
+            this.posPresent.push(pos)
+        }
     }
 
     getPoSPresent() {
