@@ -267,9 +267,6 @@ header .poem-metadata h3 {
   outline-style: solid;
   color: #89be0d;
 }
-.main .pos .pos-list .subverb.disabled {
-  display: none;
-}
 .main .pos .pos-list .subverb.selected {
   background-color: #89be0d;
   color: #F2F2F2;

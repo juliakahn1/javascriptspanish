@@ -259,10 +259,6 @@ header {
 				&.conjunction{
 					background-color: #60d8d0;
 				}
-
-				// &#subverb {
-				// 	background-color: #d8eea6;
-				// }
 			}
 		}
 	}
@@ -314,9 +310,9 @@ header {
 				outline-style: solid;
 				color: #89be0d;
 
-				&.disabled {
-					display: none;
-				}
+				// &.disabled {
+				// 	display: none;
+				// }
 
 				&.selected {
 					background-color: #89be0d;

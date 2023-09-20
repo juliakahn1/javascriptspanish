@@ -2,11 +2,14 @@ class PartsOfSpeechView {
 
     constructor(posEl, poemEl) {
         this.posEl = posEl
+        this.poemEl = poemEl
         this.categories = ["verb", "noun", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"] // populate from poem
-        this.subVerbs = ["infinitive"] // can get this from current poem
+        this.subVerbs = ["infinitive", "present"] // can get this from current poem
         this.populateWordTiles()
         this.poemEl = poemEl
     }
+
+    // find verbs in poems
 
     populateWordTiles() {
         const ul = document.createElement("ul")
@@ -31,18 +34,18 @@ class PartsOfSpeechView {
         li.innerText = partOfSpeech
         li.classList.add("pos-tile")
         li.setAttribute("id", `${partOfSpeech}`)
-        if (partOfSpeech === "verb") {
-            li.addEventListener("click", this.expandVerbs.bind(this))
-        }
+        // if (partOfSpeech === "verb") {
+        //     li.addEventListener("click", this.expandVerbs.bind(this))
+        // }
         return li
     }
 
     createSubVerbs(verbTile) {
-        const li = document.createElement("li")
         // const div = document.createElement("div")
         this.subVerbs.forEach(subverb => {
+            const li = document.createElement("li")
             li.innerText = subverb
-            li.classList.add("pos-tile", "subverb", "disabled")
+            li.classList.add("pos-tile", "subverb")
             li.setAttribute("id", `${subverb}`)
             verbTile.after(li)
         })
@@ -62,33 +65,60 @@ class PartsOfSpeechView {
     highlightWords(e) {
         e.preventDefault()
         const buttonId = e.target.id
-        if (e.srcElement.classList.contains("subverb")) {
+        const source = e.srcElement
+
+        if (source.classList.contains("subverb")) {
             const verbWords = document.querySelectorAll(".verb")
-            verbWords.forEach(word => {
-                if (word.classList.contains("verb") && !word.classList.contains(buttonId)) {
-                    word.classList.remove("selected")
-                }
-            })
+            this.highlightSubVerb(buttonId, verbWords, source)
         } else if (buttonId !== "clear-tile") {
-            e.srcElement.classList.toggle("selected")
-            const changingWords = document.querySelectorAll(`.${buttonId}`)
-            changingWords.forEach(word => word.classList.toggle("selected"))
-
-            const clearTile = document.getElementById("clear-tile")
-            const tiles = Array.from(document.querySelectorAll(".pos-tile"))
-
-            if (tiles.some(tile => tile.classList.contains("selected"))) {
-                clearTile.classList.remove("disabled")
+            // if verb is selected and if it's already selected (trying to deselect)
+            if (buttonId === "verb" && source.classList.contains("selected")) {
+                this.resetVerb(source)
             } else {
-                clearTile.classList.add("disabled")
+                this.normalHighlight(source, buttonId)
             }
         } else {
             this.clearSelected()
         }
     }
 
-    subVerbHighligher() {
+    highlightSubVerb(buttonId, verbList, source) {
+        const subVerbTiles = document.querySelectorAll(".subverb")
+        subVerbTiles.forEach(tile => tile.classList.remove("selected"))
+        source.classList.add("selected")
 
+        verbList.forEach(word => {
+            if (!word.classList.contains(buttonId)) {
+                word.classList.remove("selected")
+            } else {
+                word.classList.add("selected")
+            }
+        })
+    }
+
+    resetVerb(source) {
+        source.classList.remove("selected")
+        const allVerbTiles = Array.from(document.getElementsByClassName("subverb"))
+        allVerbTiles.forEach(tile => tile.classList.remove("selected"))
+
+        const allVerbWords = Array.from(document.getElementsByClassName("verb word"))
+        allVerbWords.forEach(tile => tile.classList.remove("selected"))
+    }
+
+    normalHighlight(source, buttonId) {
+        source.classList.toggle("selected")
+
+        const changingWords = document.querySelectorAll(`.${buttonId}`)
+        changingWords.forEach(word => word.classList.toggle("selected"))
+
+        const clearTile = document.getElementById("clear-tile")
+        const tiles = Array.from(document.querySelectorAll(".pos-tile"))
+
+        if (tiles.some(tile => tile.classList.contains("selected"))) {
+            clearTile.classList.remove("disabled")
+        } else {
+            clearTile.classList.add("disabled")
+        }
     }
 
     // reset buttons and poem words
@@ -101,14 +131,14 @@ class PartsOfSpeechView {
     }
 
     // show subverbs when verb tile is clicked
-    expandVerbs(e) {
-        e.preventDefault()
-        const subVerbTiles = document.querySelectorAll(".subverb")
-        subVerbTiles.forEach(tile => {
-            tile.classList.remove("selected")
-            tile.classList.toggle("disabled")
-        })
-    }
+    // expandVerbs(e) {
+    //     e.preventDefault()
+    //     const subVerbTiles = document.querySelectorAll(".subverb")
+    //     subVerbTiles.forEach(tile => {
+    //         tile.classList.remove("selected")
+    //         tile.classList.remove("disabled")
+    //     })
+    // }
 }
 
 export default PartsOfSpeechView;
