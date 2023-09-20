@@ -215,7 +215,6 @@ header {
 				transform: scale(1.02);
 			}
 
-			// words in a line
 			li {
 				margin: 2px;
 				font-size: 1.7vw;
@@ -310,10 +309,6 @@ header {
 				outline-style: solid;
 				color: #89be0d;
 
-				// &.disabled {
-				// 	display: none;
-				// }
-
 				&.selected {
 					background-color: #89be0d;
 					color: #F2F2F2;
@@ -325,7 +320,7 @@ header {
 				transform: scale(0.9);
 			}
 
-			#noun {
+			.noun {
 				border-color: #0D699A;
 				outline-width: 2px;
 				outline-style: solid;
@@ -337,7 +332,7 @@ header {
 				}
 			}
 
-			#verb {
+			.verb {
 				border-color: #768948;
 				outline-width: 2px;
 				outline-style: solid;
@@ -349,7 +344,7 @@ header {
 				}
 			}
 
-			#adjective {
+			.adjective {
 				border-color: #EC7200;
 				outline-width: 2px;
 				outline-style: solid;
@@ -362,7 +357,7 @@ header {
 
 			}
 
-			#adverb {
+			.adverb {
 				border-color: #d43766;
 				outline-width: 2px;
 				outline-style: solid;
@@ -374,7 +369,7 @@ header {
 				}
 			}
 
-			#article {
+			.article {
 				border-color: #A50104;
 				outline-width: 2px;
 				outline-style: solid;
@@ -386,7 +381,7 @@ header {
 				}
 			}
 
-			#pronoun {
+			.pronoun {
 				border-color: #39304A;
 				outline-width: 2px;
 				outline-style: solid;
@@ -398,7 +393,7 @@ header {
 				}
 			}
 
-			#preposition {
+			.preposition {
 				border-color: #D5A021;
 				outline-width: 2px;
 				outline-style: solid;
@@ -410,7 +405,7 @@ header {
 				}
 			}
 
-			#conjunction {
+			.conjunction {
 				border-color: #288F88;
 				outline-width: 2px;
 				outline-style: solid;

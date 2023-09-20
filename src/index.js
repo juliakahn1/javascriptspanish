@@ -2,30 +2,28 @@ import PoemView from "./scripts/poem-view"
 import PartsOfSpeechView from "./scripts/parts-of-speech-view"
 import DropdownView from "./scripts/dropdown-view"
 
-window.PoemView = PoemView
-window.PartsOfSpeechView = PartsOfSpeechView
-window.DropdownView = DropdownView
+window.poemMetaData = document.querySelector(".poem-metadata")
+window.poemEl = document.querySelector(".poem");
 
-const poemMetaData = document.querySelector(".poem-metadata")
-const poemEl = document.querySelector(".poem");
-const poem = new PoemView(poemEl, "Caminante, no hay camino", poemMetaData)
-window.poem = poem
+function setupPoem(name) {
+    window.poem = new PoemView(poemEl, name, poemMetaData, (poem) => {
+        window.pos = new PartsOfSpeechView(document.querySelector(".pos"), window.poemEl, poem.getPoSPresent())
+    })
+}
 
-const posEl = document.querySelector(".pos")
-const pos = new PartsOfSpeechView(posEl, poemEl)
-window.pos = pos
+const defaultPoemName = "Caminante, no hay camino"
+setupPoem(defaultPoemName)
 
 const dropdownEl = document.querySelector(".dropdown-content")
-const dropdown = new DropdownView(dropdownEl)
-window.dropdown = dropdown
-
-// event listener for dropdown poem selector
+window.dropdown = new DropdownView(dropdownEl)
 dropdownEl.addEventListener("click", (e) => {
+    // event listener for dropdown poem selector
+
     e.preventDefault()
 
-    poemMetaData.replaceChildren([]);
-    poemEl.replaceChildren([])
-    pos.clearAll()
+    window.poemMetaData.replaceChildren([]);
+    window.poemEl.replaceChildren([])
+    window.pos.clearAll()
 
-    const poem = new PoemView(poemEl, e.target.innerHTML, poemMetaData)
-});
+    setupPoem(e.target.innerHTML)
+})

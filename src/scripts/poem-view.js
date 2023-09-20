@@ -1,12 +1,14 @@
 class PoemView {
-    constructor(poemEl, poemName, poemMetaData) {
+    constructor(poemEl, poemName, poemMetaData, setupCallback) {
         this.poemEl = poemEl
         this.poemName = poemName
-        this.poem = this.grabPoem(poemName)
         this.metaData = poemMetaData
+        this.posPresent = []
+        this.poem = this.grabPoem(poemName, setupCallback)
+
     }
 
-    grabPoem(poemName)  {
+    grabPoem(poemName, callback) {
         const res = fetch(`./data/data.json`)
             .then(res => {
                 if (res.ok) {
@@ -20,6 +22,7 @@ class PoemView {
                 this.setUpPoem()
             })
             .catch(errorResponse => console.log(errorResponse))
+            .then(() => callback(this))
     }
 
     setUpPoem() {
@@ -35,8 +38,6 @@ class PoemView {
                 const filledLine = this.populateLine(this.poem[lineNum], ul)
                 filledLine.classList.add(`${lineNum}`)
                 this.addToolTip(filledLine)
-                // filledLine.addEventListener("mouseenter", this.highlightLine.bind(this))
-                // filledLine.addEventListener("mouseleave", this.unhighlightLine.bind(this))
                 this.poemEl.append(filledLine)
             }
         }
@@ -47,15 +48,28 @@ class PoemView {
         const wordCount = Object.keys(jsonLine).length - 1
         for (let ele = 0; ele < wordCount; ele++) {
             const li = document.createElement("li")
+
             if (jsonLine[ele].verb_subset) {
                 li.classList.add(jsonLine[ele].verb_subset)
-                li.setAttribute("id", "subverb")
+                this.trackPoS(jsonLine[ele].verb_subset)
             }
+
             li.classList.add(jsonLine[ele].part_of_speech, "word")
             li.innerText = jsonLine[ele].word
             ul.append(li)
+
+            this.trackPoS(jsonLine[ele].part_of_speech)
         }
         return ul
+    }
+
+    trackPoS(pos) {
+        if (!this.posPresent.includes(pos)) { this.posPresent.push(pos) }
+
+    }
+
+    getPoSPresent() {
+        return this.posPresent
     }
 
     addToolTip(line) {
@@ -76,19 +90,6 @@ class PoemView {
         h3.append("por " + this.poem.metadata.poet)
         this.metaData.append(h3)
     }
-
-
-    // highlightLine(e) {
-    //     e.preventDefault()
-    //     const line = e.target
-    //     line.classList.toggle("highlighted")
-    // }
-
-    // unhighlightLine(e) {
-    //     e.preventDefault()
-    //     const line = e.target
-    //     line.classList.toggle("highlighted")
-    // }
 }
 
 export default PoemView;
