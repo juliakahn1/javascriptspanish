@@ -25,7 +25,7 @@ dropdownEl.addEventListener("click", (e) => {
 
     poemMetaData.replaceChildren([]);
     poemEl.replaceChildren([])
-    pos.clearSelected()
+    pos.clearAll()
 
     const poem = new PoemView(poemEl, e.target.innerHTML, poemMetaData)
 });
