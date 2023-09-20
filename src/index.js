@@ -19,6 +19,7 @@ window.dropdown = new DropdownView(dropdownEl)
 
 dropdownEl.addEventListener("click", (e) => {
     // event listener for dropdown poem selector
+
     e.preventDefault()
 
     window.poemMetaData.replaceChildren([]);

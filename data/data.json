@@ -1,1659 +1,1632 @@
 {
-    "Silencio": {
-
-        "0": {
-            "translation": "I, who grew within a tree",
-            "0": {
-                "order_id": 1,
-                "line_id": 1,
-                "word": "Yo",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 2,
-                "line_id": 2,
-                "word": "que",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 3,
-                "line_id": 3,
-                "word": "crecí",
-                "part_of_speech": "verb",
-                "verb_subset": "past"
-            },
-            "3": {
-                "order_id": 4,
-                "line_id": 4,
-                "word": "dentro",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 5,
-                "line_id": 5,
-                "word": "de",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 6,
-                "line_id": 6,
-                "word": "un",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "6": {
-                "order_id": 7,
-                "line_id": 7,
-                "word": "árbol,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "1": {
-            "translation": "would have much to say,",
-            "0": {
-                "order_id": 8,
-                "line_id": 1,
-                "word": "tendría",
-                "part_of_speech": "verb",
-                "verb_subset": "conditional"
-            },
-            "1": {
-                "order_id": 9,
-                "line_id": 2,
-                "word": "mucho",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 10,
-                "line_id": 3,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 11,
-                "line_id": 4,
-                "word": "decir,",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            }
-        },
-        "2": {
-            "translation": "but I learned so much silence",
-            "0": {
-                "order_id": 12,
-                "line_id": 1,
-                "word": "pero",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 13,
-                "line_id": 2,
-                "word": "aprendí",
-                "part_of_speech": "verb",
-                "verb_subset": "past"
-            },
-            "2": {
-                "order_id": 14,
-                "line_id": 3,
-                "word": "tanto",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 15,
-                "line_id": 4,
-                "word": "silencio",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "3": {
-            "translation": "that I have much to keep quiet",
-            "0": {
-                "order_id": 16,
-                "line_id": 1,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 17,
-                "line_id": 2,
-                "word": "tengo",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "2": {
-                "order_id": 18,
-                "line_id": 3,
-                "word": "mucho",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 19,
-                "line_id": 4,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 20,
-                "line_id": 5,
-                "word": "callar",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            }
-        },
-        "4": {
-            "translation": "and that is known by growing",
-            "0": {
-                "order_id": 21,
-                "line_id": 1,
-                "word": "y",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 22,
-                "line_id": 2,
-                "word": "eso",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 23,
-                "line_id": 3,
-                "word": "se",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 24,
-                "line_id": 4,
-                "word": "conoce",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "4": {
-                "order_id": 25,
-                "line_id": 5,
-                "word": "creciendo",
-                "part_of_speech": "verb",
-                "verb_subset": "gerund"
-            }
-        },
-        "5": {
-            "translation": "without other joy than growing,",
-            "0": {
-                "order_id": 26,
-                "line_id": 1,
-                "word": "sin",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 27,
-                "line_id": 2,
-                "word": "otro",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 28,
-                "line_id": 3,
-                "word": "goce",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 29,
-                "line_id": 4,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 30,
-                "line_id": 5,
-                "word": "crecer,",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            }
-        },
-        "6": {
-            "translation": "without more passion than substance,",
-            "0": {
-                "order_id": 31,
-                "line_id": 1,
-                "word": "sin",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 32,
-                "line_id": 2,
-                "word": "más",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 33,
-                "line_id": 3,
-                "word": "pasión",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 34,
-                "line_id": 4,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 35,
-                "line_id": 5,
-                "word": "substancia,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "7": {
-            "translation": "without more action than innocence,",
-            "0": {
-                "order_id": 36,
-                "line_id": 1,
-                "word": "sin",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 37,
-                "line_id": 2,
-                "word": "más",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 38,
-                "line_id": 3,
-                "word": "acción",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 39,
-                "line_id": 4,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 40,
-                "line_id": 5,
-                "word": "inocencia,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "8": {
-            "translation": "and inside, the golden time",
-            "0": {
-                "order_id": 41,
-                "line_id": 1,
-                "word": "y",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 42,
-                "line_id": 2,
-                "word": "por",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 43,
-                "line_id": 3,
-                "word": "dentro",
-                "part_of_speech": "adverb",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 44,
-                "line_id": 4,
-                "word": "el",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 45,
-                "line_id": 5,
-                "word": "tiempo",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 46,
-                "line_id": 6,
-                "word": "dorado",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            }
-        },
-        "9": {
-            "translation": "until the height calls it",
-            "0": {
-                "order_id": 47,
-                "line_id": 1,
-                "word": "hasta",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 48,
-                "line_id": 2,
-                "word": "que",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 49,
-                "line_id": 3,
-                "word": "la",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 50,
-                "line_id": 4,
-                "word": "altura",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 51,
-                "line_id": 5,
-                "word": "lo",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 52,
-                "line_id": 6,
-                "word": "llama",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            }
-        },
-        "10": {
-            "translation": "to turn it into orange.",
-            "0": {
-                "order_id": 53,
-                "line_id": 1,
-                "word": "para",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 54,
-                "line_id": 2,
-                "word": "convertirlo",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            },
-            "2": {
-                "order_id": 55,
-                "line_id": 3,
-                "word": "en",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 56,
-                "line_id": 4,
-                "word": "naranja.",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "metadata": {
-            "title": "Silencio",
-            "poet": "Pablo Neruda"
-        }
+  "Silencio": {
+    "0": {
+      "translation": "I, who grew within a tree",
+      "0": {
+        "order_id": 1,
+        "line_id": 1,
+        "word": "Yo",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 2,
+        "line_id": 2,
+        "word": "que",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 3,
+        "line_id": 3,
+        "word": "crecí",
+        "part_of_speech": "verb",
+        "verb_subset": "past"
+      },
+      "3": {
+        "order_id": 4,
+        "line_id": 4,
+        "word": "dentro",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 5,
+        "line_id": 5,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 6,
+        "line_id": 6,
+        "word": "un",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 7,
+        "line_id": 7,
+        "word": "árbol,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
     },
-
-    "Caminante, no hay camino": {
-
-        "0": {
-            "translation": "Traveler, your footprints",
-            "0": {
-                "order_id": 1,
-                "line_id": 1,
-                "word": "Caminante,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 2,
-                "line_id": 2,
-                "word": "son",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "2": {
-                "order_id": 3,
-                "line_id": 3,
-                "word": "tus",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 4,
-                "line_id": 4,
-                "word": "huellas",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "1": {
-            "translation": "are the only road, nothing else.",
-            "0": {
-                "order_id": 5,
-                "line_id": 1,
-                "word": "el",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 6,
-                "line_id": 2,
-                "word": "camino",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 7,
-                "line_id": 3,
-                "word": "y",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 8,
-                "line_id": 4,
-                "word": "nada",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 9,
-                "line_id": 5,
-                "word": "más;",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "2": {
-            "translation": "Traveler, there is no road,",
-            "0": {
-                "order_id": 10,
-                "line_id": 1,
-                "word": "Caminante,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 11,
-                "line_id": 2,
-                "word": "no",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 12,
-                "line_id": 3,
-                "word": "hay",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "3": {
-                "order_id": 13,
-                "line_id": 4,
-                "word": "camino,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "3": {
-            "translation": "The road is made by walking.",
-            "0": {
-                "order_id": 14,
-                "line_id": 1,
-                "word": "se",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 15,
-                "line_id": 2,
-                "word": "hace",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "2": {
-                "order_id": 16,
-                "line_id": 3,
-                "word": "camino",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 17,
-                "line_id": 4,
-                "word": "al",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 18,
-                "line_id": 5,
-                "word": "andar.",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            }
-        },
-        "4": {
-            "translation": "By walking, the path is made,",
-            "0": {
-                "order_id": 19,
-                "line_id": 1,
-                "word": "Al",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 20,
-                "line_id": 2,
-                "word": "andar",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            },
-            "2": {
-                "order_id": 21,
-                "line_id": 3,
-                "word": "se",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 22,
-                "line_id": 4,
-                "word": "hace",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "4": {
-                "order_id": 23,
-                "line_id": 5,
-                "word": "el",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 24,
-                "line_id": 6,
-                "word": "camino,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "5": {
-            "translation": "and when you look back,",
-            "0": {
-                "order_id": 25,
-                "line_id": 1,
-                "word": "y",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 26,
-                "line_id": 2,
-                "word": "al",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 27,
-                "line_id": 3,
-                "word": "volver",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            },
-            "3": {
-                "order_id": 28,
-                "line_id": 4,
-                "word": "la",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 29,
-                "line_id": 5,
-                "word": "vista",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 30,
-                "line_id": 6,
-                "word": "atrás",
-                "part_of_speech": "adverb",
-                "verb_subset": ""
-            }
-        },
-        "6": {
-            "translation": "you'll see the path",
-            "0": {
-                "order_id": 31,
-                "line_id": 1,
-                "word": "se",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 32,
-                "line_id": 2,
-                "word": "ve",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "2": {
-                "order_id": 33,
-                "line_id": 3,
-                "word": "la",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 34,
-                "line_id": 4,
-                "word": "senda",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 35,
-                "line_id": 5,
-                "word": "que",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 36,
-                "line_id": 6,
-                "word": "nunca",
-                "part_of_speech": "adverb",
-                "verb_subset": ""
-            }
-        },
-        "7": {
-            "translation": "that you must never tread again.",
-            "0": {
-                "order_id": 37,
-                "line_id": 1,
-                "word": "se",
-                "part_of_speech": "pronoun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 38,
-                "line_id": 2,
-                "word": "ha",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "2": {
-                "order_id": 39,
-                "line_id": 3,
-                "word": "de",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 40,
-                "line_id": 4,
-                "word": "volver",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            },
-            "4": {
-                "order_id": 41,
-                "line_id": 5,
-                "word": "a",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "5": {
-                "order_id": 42,
-                "line_id": 6,
-                "word": "pisar.",
-                "part_of_speech": "verb",
-                "verb_subset": "infinitive"
-            }
-        },
-        "8": {
-            "translation": "Traveler, there is no road",
-            "0": {
-                "order_id": 43,
-                "line_id": 1,
-                "word": "Caminante,",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 44,
-                "line_id": 2,
-                "word": "no",
-                "part_of_speech": "adjective",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 45,
-                "line_id": 3,
-                "word": "hay",
-                "part_of_speech": "verb",
-                "verb_subset": "present"
-            },
-            "3": {
-                "order_id": 46,
-                "line_id": 4,
-                "word": "camino",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-        "9": {
-            "translation": "but wakes in the sea.",
-            "0": {
-                "order_id": 47,
-                "line_id": 1,
-                "word": "sino",
-                "part_of_speech": "conjunction",
-                "verb_subset": ""
-            },
-            "1": {
-                "order_id": 48,
-                "line_id": 2,
-                "word": "estelas",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            },
-            "2": {
-                "order_id": 49,
-                "line_id": 3,
-                "word": "en",
-                "part_of_speech": "preposition",
-                "verb_subset": ""
-            },
-            "3": {
-                "order_id": 50,
-                "line_id": 4,
-                "word": "la",
-                "part_of_speech": "article",
-                "verb_subset": ""
-            },
-            "4": {
-                "order_id": 51,
-                "line_id": 5,
-                "word": "mar.",
-                "part_of_speech": "noun",
-                "verb_subset": ""
-            }
-        },
-
-        "metadata": {
-            "title": "Caminante, no hay camino",
-            "poet": "Antonio Machado"
-        }
+    "1": {
+      "translation": "would have much to say,",
+      "0": {
+        "order_id": 8,
+        "line_id": 1,
+        "word": "tendría",
+        "part_of_speech": "verb",
+        "verb_subset": "conditional"
+      },
+      "1": {
+        "order_id": 9,
+        "line_id": 2,
+        "word": "mucho",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 10,
+        "line_id": 3,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 11,
+        "line_id": 4,
+        "word": "decir,",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      }
     },
-
-    "Siempre" : {
-
-        "0": {
-          "translation": "Although footsteps touch this place for a thousand years,",
-          "0": {
-            "order_id": 1,
-            "line_id": 1,
-            "word": "Aunque",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 2,
-            "line_id": 2,
-            "word": "los",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 3,
-            "line_id": 3,
-            "word": "pasos",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 4,
-            "line_id": 4,
-            "word": "toquen",
-            "part_of_speech": "verb",
-            "verb_subset": "subjunctive"
-          },
-          "4": {
-            "order_id": 5,
-            "line_id": 5,
-            "word": "mil",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 6,
-            "line_id": 6,
-            "word": "años",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 7,
-            "line_id": 7,
-            "word": "este",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 8,
-            "line_id": 8,
-            "word": "sitio,",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "1": {
-          "translation": "they won't erase the blood of those who fell here.",
-          "0": {
-            "order_id": 9,
-            "line_id": 1,
-            "word": "no",
-            "part_of_speech": "adverb",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 10,
-            "line_id": 2,
-            "word": "borrarán",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "2": {
-            "order_id": 11,
-            "line_id": 3,
-            "word": "la",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 12,
-            "line_id": 4,
-            "word": "sangre",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 13,
-            "line_id": 5,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 14,
-            "line_id": 6,
-            "word": "los",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 15,
-            "line_id": 7,
-            "word": "que",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 16,
-            "line_id": 8,
-            "word": "aquí",
-            "part_of_speech": "adverb",
-            "verb_subset": ""
-          },
-          "8": {
-            "order_id": 17,
-            "line_id": 9,
-            "word": "cayeron.",
-            "part_of_speech": "verb",
-            "verb_subset": "preterite"
-          }
-        },
-
-        "2" : "break",
-
-        "3": {
-          "translation": "And the hour when you fell won't extinguish,",
-          "0": {
-            "order_id": 18,
-            "line_id": 1,
-            "word": "Y",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 19,
-            "line_id": 2,
-            "word": "no",
-            "part_of_speech": "adverb",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 20,
-            "line_id": 3,
-            "word": "se",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 21,
-            "line_id": 4,
-            "word": "extinguirá",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "4": {
-            "order_id": 22,
-            "line_id": 5,
-            "word": "la",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 23,
-            "line_id": 6,
-            "word": "hora",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 24,
-            "line_id": 7,
-            "word": "en",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 25,
-            "line_id": 8,
-            "word": "que",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "8": {
-            "order_id": 26,
-            "line_id": 9,
-            "word": "caísteis,",
-            "part_of_speech": "verb",
-            "verb_subset": "preterite"
-          }
-        },
-
-        "4": {
-          "translation": "even if thousands of voices cross this silence.",
-          "0": {
-            "order_id": 27,
-            "line_id": 1,
-            "word": "aunque",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 28,
-            "line_id": 2,
-            "word": "miles",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 29,
-            "line_id": 3,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 30,
-            "line_id": 4,
-            "word": "voces",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 31,
-            "line_id": 5,
-            "word": "crucen",
-            "part_of_speech": "verb",
-            "verb_subset": "subjunctive"
-          },
-          "5": {
-            "order_id": 32,
-            "line_id": 6,
-            "word": "este",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 33,
-            "line_id": 7,
-            "word": "silencio.",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "5": {
-          "translation": "The rain will soak the stones of the square,",
-          "0": {
-            "order_id": 34,
-            "line_id": 1,
-            "word": "La",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 35,
-            "line_id": 2,
-            "word": "lluvia",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 36,
-            "line_id": 3,
-            "word": "empapará",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "3": {
-            "order_id": 37,
-            "line_id": 4,
-            "word": "las",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 38,
-            "line_id": 5,
-            "word": "piedras",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 39,
-            "line_id": 6,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 40,
-            "line_id": 7,
-            "word": "la",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 41,
-            "line_id": 8,
-            "word": "plaza,",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "6": {
-          "translation": "but it won't extinguish your names of fire.",
-          "0": {
-            "order_id": 42,
-            "line_id": 1,
-            "word": "pero",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 43,
-            "line_id": 2,
-            "word": "no",
-            "part_of_speech": "adverb",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 44,
-            "line_id": 3,
-            "word": "apagará",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "3": {
-            "order_id": 45,
-            "line_id": 4,
-            "word": "vuestros",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 46,
-            "line_id": 5,
-            "word": "nombres",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 47,
-            "line_id": 6,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 48,
-            "line_id": 7,
-            "word": "fuego."
-          }
-        },
-
-
-        "6" : "break",
-
-        "7": {
-          "translation": "A thousand nights will fall with their dark wings,",
-          "0": {
-            "order_id": 49,
-            "line_id": 1,
-            "word": "Mil",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 50,
-            "line_id": 2,
-            "word": "noches",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 51,
-            "line_id": 3,
-            "word": "caerán",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "3": {
-            "order_id": 52,
-            "line_id": 4,
-            "word": "con",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 53,
-            "line_id": 5,
-            "word": "sus",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 54,
-            "line_id": 6,
-            "word": "alas",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 55,
-            "line_id": 7,
-            "word": "oscuras,",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          }
-        },
-
-        "8": {
-          "translation": "without destroying the day awaited by these dead.",
-          "0": {
-            "order_id": 56,
-            "line_id": 1,
-            "word": "sin",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 57,
-            "line_id": 2,
-            "word": "destruir",
-            "part_of_speech": "verb",
-            "verb_subset": "infinitive"
-          },
-          "2": {
-            "order_id": 58,
-            "line_id": 3,
-            "word": "el",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 59,
-            "line_id": 4,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 60,
-            "line_id": 5,
-            "word": "que",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 61,
-            "line_id": 6,
-            "word": "esperan",
-            "part_of_speech": "verb",
-            "verb_subset": "present"
-          },
-          "6": {
-            "order_id": 62,
-            "line_id": 7,
-            "word": "estos",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 63,
-            "line_id": 8,
-            "word": "muertos.",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "9" : "break",
-
-        "10": {
-          "translation": "The day we all await throughout the world,",
-          "0": {
-            "order_id": 64,
-            "line_id": 1,
-            "word": "El",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 65,
-            "line_id": 2,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 66,
-            "line_id": 3,
-            "word": "que",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 67,
-            "line_id": 4,
-            "word": "esperamos",
-            "part_of_speech": "verb",
-            "verb_subset": "present"
-          },
-          "4": {
-            "order_id": 68,
-            "line_id": 5,
-            "word": "a",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 69,
-            "line_id": 6,
-            "word": "lo",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 70,
-            "line_id": 7,
-            "word": "largo",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 71,
-            "line_id": 8,
-            "word": "del",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "8": {
-            "order_id": 72,
-            "line_id": 9,
-            "word": "mundo",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "11": {
-          "translation": "so many men, the final day of suffering.",
-          "0": {
-            "order_id": 73,
-            "line_id": 1,
-            "word": "tantos",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 74,
-            "line_id": 2,
-            "word": "hombres,",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 75,
-            "line_id": 3,
-            "word": "el",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 76,
-            "line_id": 4,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 77,
-            "line_id": 5,
-            "word": "final",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 78,
-            "line_id": 6,
-            "word": "del",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 79,
-            "line_id": 7,
-            "word": "sufrimiento.",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "12" : "break",
-
-        "13": {
-          "translation": "A day of justice achieved in the struggle,",
-
-          "0": {
-            "order_id": 80,
-            "line_id": 1,
-            "word": "Un",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 81,
-            "line_id": 2,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 82,
-            "line_id": 3,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 83,
-            "line_id": 4,
-            "word": "justicia",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 84,
-            "line_id": 5,
-            "word": "conquistada",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 85,
-            "line_id": 6,
-            "word": "en",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 86,
-            "line_id": 7,
-            "word": "la",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 87,
-            "line_id": 8,
-            "word": "lucha,",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "14": {
-          "translation": "and you, fallen brothers, in silence,",
-          "0": {
-            "order_id": 88,
-            "line_id": 1,
-            "word": "y",
-            "part_of_speech": "conjunction",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 89,
-            "line_id": 2,
-            "word": "vosotros,",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 90,
-            "line_id": 3,
-            "word": "hermanos",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 91,
-            "line_id": 4,
-            "word": "caídos,",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 92,
-            "line_id": 5,
-            "word": "en",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 93,
-            "line_id": 6,
-            "word": "silencio,",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "15": {
-          "translation": "you will be with us on that vast day",
-          "0": {
-            "order_id": 94,
-            "line_id": 1,
-            "word": "estaréis",
-            "part_of_speech": "verb",
-            "verb_subset": "future"
-          },
-          "1": {
-            "order_id": 95,
-            "line_id": 2,
-            "word": "con",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 96,
-            "line_id": 3,
-            "word": "nosotros",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 97,
-            "line_id": 4,
-            "word": "en",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 98,
-            "line_id": 5,
-            "word": "ese",
-            "part_of_speech": "pronoun",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 99,
-            "line_id": 6,
-            "word": "vasto",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 100,
-            "line_id": 7,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          }
-        },
-
-        "16": {
-          "translation": "of the final struggle, on that immense day.",
-
-          "0": {
-            "order_id": 101,
-            "line_id": 1,
-            "word": "de",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "1": {
-            "order_id": 102,
-            "line_id": 2,
-            "word": "la",
-            "part_of_speech": "article",
-            "verb_subset": ""
-          },
-          "2": {
-            "order_id": 103,
-            "line_id": 3,
-            "word": "lucha",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "3": {
-            "order_id": 104,
-            "line_id": 4,
-            "word": "final,",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          },
-          "4": {
-            "order_id": 105,
-            "line_id": 5,
-            "word": "en",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "5": {
-            "order_id": 106,
-            "line_id": 6,
-            "word": "ese",
-            "part_of_speech": "preposition",
-            "verb_subset": ""
-          },
-          "6": {
-            "order_id": 107,
-            "line_id": 7,
-            "word": "día",
-            "part_of_speech": "noun",
-            "verb_subset": ""
-          },
-          "7": {
-            "order_id": 108,
-            "line_id": 8,
-            "word": "inmenso.",
-            "part_of_speech": "adjective",
-            "verb_subset": ""
-          }
-        },
-
-        "metadata": {
-            "title": "Siempre",
-            "poet": "Pablo Neruda"
-        }
+    "2": {
+      "translation": "but I learned so much silence",
+      "0": {
+        "order_id": 12,
+        "line_id": 1,
+        "word": "pero",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 13,
+        "line_id": 2,
+        "word": "aprendí",
+        "part_of_speech": "verb",
+        "verb_subset": "past"
+      },
+      "2": {
+        "order_id": 14,
+        "line_id": 3,
+        "word": "tanto",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 15,
+        "line_id": 4,
+        "word": "silencio",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "3": {
+      "translation": "that I have much to keep quiet",
+      "0": {
+        "order_id": 16,
+        "line_id": 1,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 17,
+        "line_id": 2,
+        "word": "tengo",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "2": {
+        "order_id": 18,
+        "line_id": 3,
+        "word": "mucho",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 19,
+        "line_id": 4,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 20,
+        "line_id": 5,
+        "word": "callar",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      }
+    },
+    "4": {
+      "translation": "and that is known by growing",
+      "0": {
+        "order_id": 21,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 22,
+        "line_id": 2,
+        "word": "eso",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 23,
+        "line_id": 3,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 24,
+        "line_id": 4,
+        "word": "conoce",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "4": {
+        "order_id": 25,
+        "line_id": 5,
+        "word": "creciendo",
+        "part_of_speech": "verb",
+        "verb_subset": "gerund"
+      }
+    },
+    "5": {
+      "translation": "without other joy than growing,",
+      "0": {
+        "order_id": 26,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 27,
+        "line_id": 2,
+        "word": "otro",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 28,
+        "line_id": 3,
+        "word": "goce",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 29,
+        "line_id": 4,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 30,
+        "line_id": 5,
+        "word": "crecer,",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      }
+    },
+    "6": {
+      "translation": "without more passion than substance,",
+      "0": {
+        "order_id": 31,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 32,
+        "line_id": 2,
+        "word": "más",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 33,
+        "line_id": 3,
+        "word": "pasión",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 34,
+        "line_id": 4,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 35,
+        "line_id": 5,
+        "word": "substancia,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "7": {
+      "translation": "without more action than innocence,",
+      "0": {
+        "order_id": 36,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 37,
+        "line_id": 2,
+        "word": "más",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 38,
+        "line_id": 3,
+        "word": "acción",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 39,
+        "line_id": 4,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 40,
+        "line_id": 5,
+        "word": "inocencia,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "8": {
+      "translation": "and inside, the golden time",
+      "0": {
+        "order_id": 41,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 42,
+        "line_id": 2,
+        "word": "por",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 43,
+        "line_id": 3,
+        "word": "dentro",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 44,
+        "line_id": 4,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 45,
+        "line_id": 5,
+        "word": "tiempo",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 46,
+        "line_id": 6,
+        "word": "dorado",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "9": {
+      "translation": "until the height calls it",
+      "0": {
+        "order_id": 47,
+        "line_id": 1,
+        "word": "hasta",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 48,
+        "line_id": 2,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 49,
+        "line_id": 3,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 50,
+        "line_id": 4,
+        "word": "altura",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 51,
+        "line_id": 5,
+        "word": "lo",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 52,
+        "line_id": 6,
+        "word": "llama",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "10": {
+      "translation": "to turn it into orange.",
+      "0": {
+        "order_id": 53,
+        "line_id": 1,
+        "word": "para",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 54,
+        "line_id": 2,
+        "word": "convertirlo",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      },
+      "2": {
+        "order_id": 55,
+        "line_id": 3,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 56,
+        "line_id": 4,
+        "word": "naranja.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "metadata": {
+      "title": "Silencio",
+      "poet": "Pablo Neruda"
     }
+  },
+  "Caminante, no hay camino": {
+    "0": {
+      "translation": "Traveler, your footprints",
+      "0": {
+        "order_id": 1,
+        "line_id": 1,
+        "word": "Caminante,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 2,
+        "line_id": 2,
+        "word": "son",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "2": {
+        "order_id": 3,
+        "line_id": 3,
+        "word": "tus",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 4,
+        "line_id": 4,
+        "word": "huellas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "1": {
+      "translation": "are the only road, nothing else.",
+      "0": {
+        "order_id": 5,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 6,
+        "line_id": 2,
+        "word": "camino",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 7,
+        "line_id": 3,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 8,
+        "line_id": 4,
+        "word": "nada",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 9,
+        "line_id": 5,
+        "word": "más;",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "2": {
+      "translation": "Traveler, there is no road,",
+      "0": {
+        "order_id": 10,
+        "line_id": 1,
+        "word": "Caminante,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 11,
+        "line_id": 2,
+        "word": "no",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 12,
+        "line_id": 3,
+        "word": "hay",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "3": {
+        "order_id": 13,
+        "line_id": 4,
+        "word": "camino,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "3": {
+      "translation": "The road is made by walking.",
+      "0": {
+        "order_id": 14,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 15,
+        "line_id": 2,
+        "word": "hace",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "2": {
+        "order_id": 16,
+        "line_id": 3,
+        "word": "camino",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 17,
+        "line_id": 4,
+        "word": "al",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 18,
+        "line_id": 5,
+        "word": "andar.",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      }
+    },
+    "4": {
+      "translation": "By walking, the path is made,",
+      "0": {
+        "order_id": 19,
+        "line_id": 1,
+        "word": "Al",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 20,
+        "line_id": 2,
+        "word": "andar",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      },
+      "2": {
+        "order_id": 21,
+        "line_id": 3,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 22,
+        "line_id": 4,
+        "word": "hace",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "4": {
+        "order_id": 23,
+        "line_id": 5,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 24,
+        "line_id": 6,
+        "word": "camino,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "5": {
+      "translation": "and when you look back,",
+      "0": {
+        "order_id": 25,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 26,
+        "line_id": 2,
+        "word": "al",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 27,
+        "line_id": 3,
+        "word": "volver",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      },
+      "3": {
+        "order_id": 28,
+        "line_id": 4,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 29,
+        "line_id": 5,
+        "word": "vista",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 30,
+        "line_id": 6,
+        "word": "atrás",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      }
+    },
+    "6": {
+      "translation": "you'll see the path",
+      "0": {
+        "order_id": 31,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 32,
+        "line_id": 2,
+        "word": "ve",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "2": {
+        "order_id": 33,
+        "line_id": 3,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 34,
+        "line_id": 4,
+        "word": "senda",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 35,
+        "line_id": 5,
+        "word": "que",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 36,
+        "line_id": 6,
+        "word": "nunca",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      }
+    },
+    "7": {
+      "translation": "that you must never tread again.",
+      "0": {
+        "order_id": 37,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 38,
+        "line_id": 2,
+        "word": "ha",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "2": {
+        "order_id": 39,
+        "line_id": 3,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 40,
+        "line_id": 4,
+        "word": "volver",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      },
+      "4": {
+        "order_id": 41,
+        "line_id": 5,
+        "word": "a",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 42,
+        "line_id": 6,
+        "word": "pisar.",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      }
+    },
+    "8": {
+      "translation": "Traveler, there is no road",
+      "0": {
+        "order_id": 43,
+        "line_id": 1,
+        "word": "Caminante,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 44,
+        "line_id": 2,
+        "word": "no",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 45,
+        "line_id": 3,
+        "word": "hay",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "3": {
+        "order_id": 46,
+        "line_id": 4,
+        "word": "camino",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "9": {
+      "translation": "but wakes in the sea.",
+      "0": {
+        "order_id": 47,
+        "line_id": 1,
+        "word": "sino",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 48,
+        "line_id": 2,
+        "word": "estelas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 49,
+        "line_id": 3,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 50,
+        "line_id": 4,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 51,
+        "line_id": 5,
+        "word": "mar.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "metadata": {
+      "title": "Caminante, no hay camino",
+      "poet": "Antonio Machado"
+    }
+  },
+  "Siempre": {
+    "0": {
+      "translation": "Although footsteps touch this place for a thousand years,",
+      "0": {
+        "order_id": 1,
+        "line_id": 1,
+        "word": "Aunque",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 2,
+        "line_id": 2,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 3,
+        "line_id": 3,
+        "word": "pasos",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 4,
+        "line_id": 4,
+        "word": "toquen",
+        "part_of_speech": "verb",
+        "verb_subset": "subjunctive"
+      },
+      "4": {
+        "order_id": 5,
+        "line_id": 5,
+        "word": "mil",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 6,
+        "line_id": 6,
+        "word": "años",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 7,
+        "line_id": 7,
+        "word": "este",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 8,
+        "line_id": 8,
+        "word": "sitio,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "1": {
+      "translation": "they won't erase the blood of those who fell here.",
+      "0": {
+        "order_id": 9,
+        "line_id": 1,
+        "word": "no",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 10,
+        "line_id": 2,
+        "word": "borrarán",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "2": {
+        "order_id": 11,
+        "line_id": 3,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 12,
+        "line_id": 4,
+        "word": "sangre",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 13,
+        "line_id": 5,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 14,
+        "line_id": 6,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 15,
+        "line_id": 7,
+        "word": "que",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 16,
+        "line_id": 8,
+        "word": "aquí",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "8": {
+        "order_id": 17,
+        "line_id": 9,
+        "word": "cayeron.",
+        "part_of_speech": "verb",
+        "verb_subset": "preterite"
+      }
+    },
+    "2": "break",
+    "3": {
+      "translation": "And the hour when you fell won't extinguish,",
+      "0": {
+        "order_id": 18,
+        "line_id": 1,
+        "word": "Y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 19,
+        "line_id": 2,
+        "word": "no",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 20,
+        "line_id": 3,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 21,
+        "line_id": 4,
+        "word": "extinguirá",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "4": {
+        "order_id": 22,
+        "line_id": 5,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 23,
+        "line_id": 6,
+        "word": "hora",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 24,
+        "line_id": 7,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 25,
+        "line_id": 8,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "8": {
+        "order_id": 26,
+        "line_id": 9,
+        "word": "caísteis,",
+        "part_of_speech": "verb",
+        "verb_subset": "preterite"
+      }
+    },
+    "4": {
+      "translation": "even if thousands of voices cross this silence.",
+      "0": {
+        "order_id": 27,
+        "line_id": 1,
+        "word": "aunque",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 28,
+        "line_id": 2,
+        "word": "miles",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 29,
+        "line_id": 3,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 30,
+        "line_id": 4,
+        "word": "voces",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 31,
+        "line_id": 5,
+        "word": "crucen",
+        "part_of_speech": "verb",
+        "verb_subset": "subjunctive"
+      },
+      "5": {
+        "order_id": 32,
+        "line_id": 6,
+        "word": "este",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 33,
+        "line_id": 7,
+        "word": "silencio.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "5": {
+      "translation": "The rain will soak the stones of the square,",
+      "0": {
+        "order_id": 34,
+        "line_id": 1,
+        "word": "La",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 35,
+        "line_id": 2,
+        "word": "lluvia",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 36,
+        "line_id": 3,
+        "word": "empapará",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "3": {
+        "order_id": 37,
+        "line_id": 4,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 38,
+        "line_id": 5,
+        "word": "piedras",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 39,
+        "line_id": 6,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 40,
+        "line_id": 7,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 41,
+        "line_id": 8,
+        "word": "plaza,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "6": {
+      "translation": "but it won't extinguish your names of fire.",
+      "0": {
+        "order_id": 42,
+        "line_id": 1,
+        "word": "pero",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 43,
+        "line_id": 2,
+        "word": "no",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 44,
+        "line_id": 3,
+        "word": "apagará",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "3": {
+        "order_id": 45,
+        "line_id": 4,
+        "word": "vuestros",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 46,
+        "line_id": 5,
+        "word": "nombres",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 47,
+        "line_id": 6,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 48,
+        "line_id": 7,
+        "word": "fuego."
+      }
+    },
+    "6": "break",
+    "7": {
+      "translation": "A thousand nights will fall with their dark wings,",
+      "0": {
+        "order_id": 49,
+        "line_id": 1,
+        "word": "Mil",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 50,
+        "line_id": 2,
+        "word": "noches",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 51,
+        "line_id": 3,
+        "word": "caerán",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "3": {
+        "order_id": 52,
+        "line_id": 4,
+        "word": "con",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 53,
+        "line_id": 5,
+        "word": "sus",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 54,
+        "line_id": 6,
+        "word": "alas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 55,
+        "line_id": 7,
+        "word": "oscuras,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "8": {
+      "translation": "without destroying the day awaited by these dead.",
+      "0": {
+        "order_id": 56,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 57,
+        "line_id": 2,
+        "word": "destruir",
+        "part_of_speech": "verb",
+        "verb_subset": "infinitive"
+      },
+      "2": {
+        "order_id": 58,
+        "line_id": 3,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 59,
+        "line_id": 4,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 60,
+        "line_id": 5,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 61,
+        "line_id": 6,
+        "word": "esperan",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "6": {
+        "order_id": 62,
+        "line_id": 7,
+        "word": "estos",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 63,
+        "line_id": 8,
+        "word": "muertos.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "9": "break",
+    "10": {
+      "translation": "The day we all await throughout the world,",
+      "0": {
+        "order_id": 64,
+        "line_id": 1,
+        "word": "El",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 65,
+        "line_id": 2,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 66,
+        "line_id": 3,
+        "word": "que",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 67,
+        "line_id": 4,
+        "word": "esperamos",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "4": {
+        "order_id": 68,
+        "line_id": 5,
+        "word": "a",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 69,
+        "line_id": 6,
+        "word": "lo",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 70,
+        "line_id": 7,
+        "word": "largo",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 71,
+        "line_id": 8,
+        "word": "del",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "8": {
+        "order_id": 72,
+        "line_id": 9,
+        "word": "mundo",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "11": {
+      "translation": "so many men, the final day of suffering.",
+      "0": {
+        "order_id": 73,
+        "line_id": 1,
+        "word": "tantos",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 74,
+        "line_id": 2,
+        "word": "hombres,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 75,
+        "line_id": 3,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 76,
+        "line_id": 4,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 77,
+        "line_id": 5,
+        "word": "final",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 78,
+        "line_id": 6,
+        "word": "del",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 79,
+        "line_id": 7,
+        "word": "sufrimiento.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "12": "break",
+    "13": {
+      "translation": "A day of justice achieved in the struggle,",
+      "0": {
+        "order_id": 80,
+        "line_id": 1,
+        "word": "Un",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 81,
+        "line_id": 2,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 82,
+        "line_id": 3,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 83,
+        "line_id": 4,
+        "word": "justicia",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 84,
+        "line_id": 5,
+        "word": "conquistada",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 85,
+        "line_id": 6,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 86,
+        "line_id": 7,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 87,
+        "line_id": 8,
+        "word": "lucha,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "14": {
+      "translation": "and you, fallen brothers, in silence,",
+      "0": {
+        "order_id": 88,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 89,
+        "line_id": 2,
+        "word": "vosotros,",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 90,
+        "line_id": 3,
+        "word": "hermanos",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 91,
+        "line_id": 4,
+        "word": "caídos,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 92,
+        "line_id": 5,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 93,
+        "line_id": 6,
+        "word": "silencio,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "15": {
+      "translation": "you will be with us on that vast day",
+      "0": {
+        "order_id": 94,
+        "line_id": 1,
+        "word": "estaréis",
+        "part_of_speech": "verb",
+        "verb_subset": "future"
+      },
+      "1": {
+        "order_id": 95,
+        "line_id": 2,
+        "word": "con",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 96,
+        "line_id": 3,
+        "word": "nosotros",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 97,
+        "line_id": 4,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 98,
+        "line_id": 5,
+        "word": "ese",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 99,
+        "line_id": 6,
+        "word": "vasto",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 100,
+        "line_id": 7,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "16": {
+      "translation": "of the final struggle, on that immense day.",
+      "0": {
+        "order_id": 101,
+        "line_id": 1,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 102,
+        "line_id": 2,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 103,
+        "line_id": 3,
+        "word": "lucha",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 104,
+        "line_id": 4,
+        "word": "final,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 105,
+        "line_id": 5,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "5": {
+        "order_id": 106,
+        "line_id": 6,
+        "word": "ese",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "6": {
+        "order_id": 107,
+        "line_id": 7,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "7": {
+        "order_id": 108,
+        "line_id": 8,
+        "word": "inmenso.",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "metadata": {
+      "title": "Siempre",
+      "poet": "Pablo Neruda"
+    }
+  }
 }
