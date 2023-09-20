@@ -120,6 +120,13 @@ header h1 {
   font-size: 20px;
   font-weight: 300;
   padding-left: 1%;
+}
+header h1 span.javascript {
+  color: #AD1519;
+  font-family: "Yeseva One", cursive;
+}
+header h1 span.spanish {
+  color: #e7b10c;
   font-family: "Yeseva One", cursive;
 }
 header ul.menu-nav {
@@ -147,7 +154,7 @@ header ul.menu-nav li .dropdown-button, header ul.menu-nav a .dropdown-button {
   color: rgb(0, 0, 0);
   border: none;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   margin: 7px;
 }
