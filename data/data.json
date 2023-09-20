@@ -81,7 +81,7 @@
                 "line_id": 4,
                 "word": "decir,",
                 "part_of_speech": "verb",
-                "verb_subset": ""
+                "verb_subset": "infinitive"
             }
         },
         "2": {
@@ -150,7 +150,7 @@
                 "line_id": 5,
                 "word": "callar",
                 "part_of_speech": "verb",
-                "verb_subset": ""
+                "verb_subset": "infinitive"
             }
         },
         "4": {
@@ -188,7 +188,7 @@
                 "line_id": 5,
                 "word": "creciendo",
                 "part_of_speech": "verb",
-                "verb_subset": "present"
+                "verb_subset": "gerund"
             }
         },
         "5": {
@@ -226,7 +226,7 @@
                 "line_id": 5,
                 "word": "crecer,",
                 "part_of_speech": "verb",
-                "verb_subset": ""
+                "verb_subset": "infinitive"
             }
         },
         "6": {
@@ -858,7 +858,7 @@
             "line_id": 4,
             "word": "toquen",
             "part_of_speech": "verb",
-            "verb_subset": "present"
+            "verb_subset": "subjunctive"
           },
           "4": {
             "order_id": 5,
@@ -1061,7 +1061,7 @@
             "line_id": 5,
             "word": "crucen",
             "part_of_speech": "verb",
-            "verb_subset": "present"
+            "verb_subset": "subjunctive"
           },
           "5": {
             "order_id": 32,
@@ -1432,6 +1432,7 @@
 
         "13": {
           "translation": "A day of justice achieved in the struggle,",
+
           "0": {
             "order_id": 80,
             "line_id": 1,
@@ -1464,8 +1465,8 @@
             "order_id": 84,
             "line_id": 5,
             "word": "conquistada",
-            "part_of_speech": "verb",
-            "verb_subset": "past"
+            "part_of_speech": "adjective",
+            "verb_subset": ""
           },
           "5": {
             "order_id": 85,
@@ -1532,7 +1533,7 @@
           }
         },
 
-        "13": {
+        "15": {
           "translation": "you will be with us on that vast day",
           "0": {
             "order_id": 94,
@@ -1585,7 +1586,7 @@
           }
         },
 
-        "14": {
+        "16": {
           "translation": "of the final struggle, on that immense day.",
 
           "0": {
@@ -1640,7 +1641,7 @@
           "7": {
             "order_id": 108,
             "line_id": 8,
-            "word": "inmenso",
+            "word": "inmenso.",
             "part_of_speech": "adjective",
             "verb_subset": ""
           }

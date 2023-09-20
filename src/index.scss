@@ -292,13 +292,8 @@ header {
 				transition: all .2s ease-in-out;
 
 				&#clear-tile {
-					color: #f70d0d;
-
-					&.disabled {
-						color: rgb(188, 188, 188);
-						transform: none;
-						cursor: unset ;
-					}
+					color: rgb(188, 188, 188);
+					cursor: pointer;
 				}
 			}
 

@@ -39,7 +39,7 @@ class PartsOfSpeechView {
 
     createClearTile(ul) {
         const li = document.createElement("li")
-        li.classList.add("pos-tile", "disabled")
+        li.classList.add("pos-tile")
         li.setAttribute("id", "clear-tile")
         li.setAttribute("pos", "clear-tile")
         li.innerText = "Clear"

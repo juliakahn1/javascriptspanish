@@ -254,12 +254,8 @@ header .poem-metadata h3 {
   transition: all 0.2s ease-in-out;
 }
 .main .pos .pos-list .pos-tile#clear-tile {
-  color: #f70d0d;
-}
-.main .pos .pos-list .pos-tile#clear-tile.disabled {
   color: rgb(188, 188, 188);
-  transform: none;
-  cursor: unset;
+  cursor: pointer;
 }
 .main .pos .pos-list .subverb {
   border-color: #89be0d;
