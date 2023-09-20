@@ -27,3 +27,11 @@ dropdownEl.addEventListener("click", (e) => {
 
     setupPoem(e.target.innerHTML)
 })
+
+document.addEventListener("DOMContentLoaded", (e) => {
+    document.querySelector(".modal").style.display = "flex"
+});
+
+document.querySelector('.close-btn').addEventListener("click", (e) => {
+    document.querySelector('.modal').style.display = "none"
+})
