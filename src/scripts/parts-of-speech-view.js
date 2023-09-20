@@ -22,7 +22,7 @@ class PartsOfSpeechView {
             if (newTile.id === "verb") verbTile = newTile
         })
 
-        this.createSubVerbs(verbTile)
+        // this.createSubVerbs(verbTile)
         this.createClearTile(ul)
 
         this.posEl.append(ul)
@@ -34,24 +34,21 @@ class PartsOfSpeechView {
         li.innerText = partOfSpeech
         li.classList.add("pos-tile")
         li.setAttribute("id", `${partOfSpeech}`)
-        // if (partOfSpeech === "verb") {
-        //     li.addEventListener("click", this.expandVerbs.bind(this))
-        // }
         return li
     }
 
-    createSubVerbs(verbTile) {
-        // const div = document.createElement("div")
-        this.subVerbs.forEach(subverb => {
-            const li = document.createElement("li")
-            li.innerText = subverb
-            li.classList.add("pos-tile", "subverb")
-            li.setAttribute("id", `${subverb}`)
-            verbTile.after(li)
-        })
+    // createSubVerbs(verbTile) {
+    //     // const div = document.createElement("div")
+    //     this.subVerbs.forEach(subverb => {
+    //         const li = document.createElement("li")
+    //         li.innerText = subverb
+    //         li.classList.add("pos-tile", "subverb")
+    //         li.setAttribute("id", `${subverb}`)
+    //         verbTile.after(li)
+    //     })
         // div.addEventListener("click", this.highlightWords.bind(this))
         // verbTile.after(div)
-    }
+    // }
 
     // hidden unless event listener is triggered
     createClearTile(ul) {
@@ -67,42 +64,11 @@ class PartsOfSpeechView {
         const buttonId = e.target.id
         const source = e.srcElement
 
-        if (source.classList.contains("subverb")) {
-            const verbWords = document.querySelectorAll(".verb")
-            this.highlightSubVerb(buttonId, verbWords, source)
-        } else if (buttonId !== "clear-tile") {
-            // if verb is selected and if it's already selected (trying to deselect)
-            if (buttonId === "verb" && source.classList.contains("selected")) {
-                this.resetVerb(source)
-            } else {
+        if (buttonId !== "clear-tile") {
                 this.normalHighlight(source, buttonId)
-            }
-        } else {
-            this.clearSelected()
+        } else { // if clear is selected
+            this.clearAll()
         }
-    }
-
-    highlightSubVerb(buttonId, verbList, source) {
-        const subVerbTiles = document.querySelectorAll(".subverb")
-        subVerbTiles.forEach(tile => tile.classList.remove("selected"))
-        source.classList.add("selected")
-
-        verbList.forEach(word => {
-            if (!word.classList.contains(buttonId)) {
-                word.classList.remove("selected")
-            } else {
-                word.classList.add("selected")
-            }
-        })
-    }
-
-    resetVerb(source) {
-        source.classList.remove("selected")
-        const allVerbTiles = Array.from(document.getElementsByClassName("subverb"))
-        allVerbTiles.forEach(tile => tile.classList.remove("selected"))
-
-        const allVerbWords = Array.from(document.getElementsByClassName("verb word"))
-        allVerbWords.forEach(tile => tile.classList.remove("selected"))
     }
 
     normalHighlight(source, buttonId) {
@@ -121,8 +87,8 @@ class PartsOfSpeechView {
         }
     }
 
-    // reset buttons and poem words
-    clearSelected() {
+     // reset buttons and poem words
+    clearAll() {
         const tiles = document.querySelectorAll(".pos-tile, .word")
         tiles.forEach(tile => {
             tile.classList.remove("selected")
@@ -130,14 +96,36 @@ class PartsOfSpeechView {
         })
     }
 
-    // show subverbs when verb tile is clicked
-    // expandVerbs(e) {
-    //     e.preventDefault()
+    // highlightSubVerb(buttonId, verbWords, source) {
     //     const subVerbTiles = document.querySelectorAll(".subverb")
-    //     subVerbTiles.forEach(tile => {
-    //         tile.classList.remove("selected")
-    //         tile.classList.remove("disabled")
-    //     })
+    //     subVerbTiles.forEach(tile => tile.classList.remove("selected"))
+    //     source.classList.add("selected")
+    //     verbWords.forEach(word => {
+    //         if (!word.classList.contains(buttonId)) word.classList.toggle("selected")
+    //         })
+        // const subVerbTiles = document.querySelectorAll(".subverb")
+        // source.classList.toggle("selected")
+
+        // // subVerbTiles.forEach(tile => tile.classList.remove("selected"))
+        // // source.classList.add("selected")
+
+        // // reset words in poem
+        // verbWords.forEach(word => {
+        //     if (!word.classList.contains(buttonId)) {
+        //         word.classList.remove("selected")
+        //     } else {
+        //         word.classList.add("selected")
+        //     }
+        // })
+    // }
+
+    // resetVerb(source) {
+    //     source.classList.remove("selected")
+    //     const allVerbTiles = Array.from(document.getElementsByClassName("subverb"))
+    //     allVerbTiles.forEach(tile => tile.classList.remove("selected"))
+
+    //     const allVerbWords = Array.from(document.getElementsByClassName("verb word"))
+    //     allVerbWords.forEach(tile => tile.classList.remove("selected"))
     // }
 }
 
