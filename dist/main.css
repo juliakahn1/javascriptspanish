@@ -185,6 +185,7 @@ header .poem-metadata {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  border-bottom: 0.5px solid rgb(209, 209, 209);
 }
 header .poem-metadata h2 {
   font-size: 2.4em;
