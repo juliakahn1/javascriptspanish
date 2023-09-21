@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -27,41 +95,60 @@ time, mark, audio, video {
 	color: #3d3d3d;
 
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
 
 	.modal-content {
 		background-color: #F2F2F2;
@@ -141,7 +228,8 @@ header {
 		font-weight: 300;
 		font-family: 'Roboto', sans-serif;
 
-		li, a {
+		li,
+		a {
 			margin: 7px;
 
 			img {
@@ -172,7 +260,7 @@ header {
 				display: none;
 				position: absolute;
 				min-width: 200px;
-				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 				z-index: 1;
 				right: 0;
 			}
@@ -201,7 +289,8 @@ header {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-		border-bottom: 0.5px solid rgb(209 209 209);;
+		border-bottom: 0.5px solid rgb(209 209 209);
+		;
 
 		h2 {
 			font-size: 2.4em;
@@ -239,7 +328,8 @@ header {
 			span.tooltiptext {
 				visibility: hidden;
 				width: max-content;
-				background-color: #ffffff;;
+				background-color: #ffffff;
+				;
 				box-shadow: 0px 1px 1px 0px rgb(56, 56, 56, 3);
 				color: black;
 				text-align: center;
@@ -255,7 +345,7 @@ header {
 				margin-left: -50%;
 			}
 
-			&:hover .tooltiptext{
+			&:hover .tooltiptext {
 				visibility: visible;
 			}
 
@@ -287,23 +377,23 @@ header {
 					background-color: #f8b77b;
 				}
 
-				&.adverb{
+				&.adverb {
 					background-color: #f36691;
 				}
 
-				&.article{
+				&.article {
 					background-color: #e87577;
 				}
 
-				&.pronoun{
+				&.pronoun {
 					background-color: #9f93b6;
 				}
 
-				&.preposition{
+				&.preposition {
 					background-color: #f1d188;
 				}
 
-				&.conjunction{
+				&.conjunction {
 					background-color: #60d8d0;
 				}
 			}

@@ -50,7 +50,6 @@ class PartsOfSpeechView {
     onTileClick(e) { // button click
         e.preventDefault()
         const clickedTile = e.target.getAttribute("pos")
-        // PIE IN SKY: disabled clear button
         this.clearAll()
         this.updateState(clickedTile)
         this.applyState()
@@ -71,7 +70,7 @@ class PartsOfSpeechView {
 
     updateState(clickedTile) {
         // if clickedTile is clear-tile, set all whole hash map to false
-        if (clickedTile === "clear-tile") { // FIX AESTHETIC
+        if (clickedTile === "clear-tile") { 
             Object.keys(this.state).forEach(key => this.state[key] = false)
         } else {
             this.state[clickedTile] = !this.state[clickedTile] // toggle between values
