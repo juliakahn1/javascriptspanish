@@ -336,6 +336,7 @@ header {
 				padding: 4%;
 				text-transform: uppercase;
 				transition: all .2s ease-in-out;
+				outline-width: 1.5px;
 
 				&#clear-tile {
 					color: rgb(188, 188, 188);
@@ -346,7 +347,6 @@ header {
 
 			.subverb {
 				border-color: #89be0d;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #89be0d;
 
@@ -363,7 +363,6 @@ header {
 
 			.noun {
 				border-color: #0D699A;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #0D699A;
 
@@ -375,7 +374,6 @@ header {
 
 			.verb {
 				border-color: #768948;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #768948;
 
@@ -387,7 +385,6 @@ header {
 
 			.adjective {
 				border-color: #EC7200;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #EC7200;
 
@@ -400,7 +397,6 @@ header {
 
 			.adverb {
 				border-color: #d43766;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #CA3F69;
 
@@ -412,7 +408,6 @@ header {
 
 			.article {
 				border-color: #A50104;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #A50104;
 
@@ -424,7 +419,6 @@ header {
 
 			.pronoun {
 				border-color: #39304A;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #39304A;
 
@@ -436,7 +430,6 @@ header {
 
 			.preposition {
 				border-color: #D5A021;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #D5A021;
 
@@ -448,7 +441,6 @@ header {
 
 			.conjunction {
 				border-color: #288F88;
-				outline-width: 2px;
 				outline-style: solid;
 				color: #288F88;
 

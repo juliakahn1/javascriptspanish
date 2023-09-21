@@ -299,6 +299,7 @@ header .poem-metadata h3 {
   padding: 4%;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  outline-width: 1.5px;
 }
 .main .pos .pos-list .pos-tile#clear-tile {
   color: rgb(188, 188, 188);
@@ -306,7 +307,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .subverb {
   border-color: #89be0d;
-  outline-width: 2px;
   outline-style: solid;
   color: #89be0d;
 }
@@ -320,7 +320,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .noun {
   border-color: #0D699A;
-  outline-width: 2px;
   outline-style: solid;
   color: #0D699A;
 }
@@ -330,7 +329,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .verb {
   border-color: #768948;
-  outline-width: 2px;
   outline-style: solid;
   color: #768948;
 }
@@ -340,7 +338,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .adjective {
   border-color: #EC7200;
-  outline-width: 2px;
   outline-style: solid;
   color: #EC7200;
 }
@@ -350,7 +347,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .adverb {
   border-color: #d43766;
-  outline-width: 2px;
   outline-style: solid;
   color: #CA3F69;
 }
@@ -360,7 +356,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .article {
   border-color: #A50104;
-  outline-width: 2px;
   outline-style: solid;
   color: #A50104;
 }
@@ -370,7 +365,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .pronoun {
   border-color: #39304A;
-  outline-width: 2px;
   outline-style: solid;
   color: #39304A;
 }
@@ -380,7 +374,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .preposition {
   border-color: #D5A021;
-  outline-width: 2px;
   outline-style: solid;
   color: #D5A021;
 }
@@ -390,7 +383,6 @@ header .poem-metadata h3 {
 }
 .main .pos .pos-list .conjunction {
   border-color: #288F88;
-  outline-width: 2px;
   outline-style: solid;
   color: #288F88;
 }
