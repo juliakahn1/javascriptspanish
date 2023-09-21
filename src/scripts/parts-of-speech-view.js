@@ -1,8 +1,7 @@
 class PartsOfSpeechView {
 
-    constructor(posEl, poemEl, posPresent) {
+    constructor(posEl, posPresent) {
         this.posEl = posEl
-        // this.poemEl = poemEl
         this.nonSubVerbs = ["verb", "noun", "adjective", "adverb", "article", "pronoun", "preposition", "conjunction"]
         this.posPresent = posPresent
         this.state = {}

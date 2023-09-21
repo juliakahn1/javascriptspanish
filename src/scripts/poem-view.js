@@ -48,7 +48,6 @@ class PoemView {
         const wordCount = Object.keys(jsonLine).length - 1
         for (let ele = 0; ele < wordCount; ele++) {
             const li = document.createElement("li")
-
             if (jsonLine[ele].verb_subset) {
                 li.classList.add(jsonLine[ele].verb_subset)
                 this.trackPoS(jsonLine[ele].verb_subset)

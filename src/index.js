@@ -7,7 +7,7 @@ window.poemEl = document.querySelector(".poem");
 
 function setupPoem(name) {
     window.poem = new PoemView(poemEl, name, poemMetaData, (poem) => {
-        window.pos = new PartsOfSpeechView(document.querySelector(".pos"), window.poemEl, poem.getPoSPresent())
+        window.pos = new PartsOfSpeechView(document.querySelector(".pos"), poem.getPoSPresent())
     })
 }
 
@@ -17,9 +17,9 @@ setupPoem(defaultPoemName)
 const dropdownEl = document.querySelector(".dropdown-content")
 window.dropdown = new DropdownView(dropdownEl)
 
-dropdownEl.addEventListener("click", (e) => {
-    // event listener for dropdown poem selector
+// dropdown poem selector event listener
 
+dropdownEl.addEventListener("click", (e) => {
     e.preventDefault()
 
     window.poemMetaData.replaceChildren([]);
@@ -28,6 +28,8 @@ dropdownEl.addEventListener("click", (e) => {
 
     setupPoem(e.target.innerHTML)
 })
+
+// modal event listeners
 
 document.addEventListener("DOMContentLoaded", (e) => {
     document.querySelector(".modal").style.display = "flex"

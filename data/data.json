@@ -1177,8 +1177,8 @@
         "word": "fuego."
       }
     },
-    "6": "break",
-    "7": {
+    "7": "break",
+    "8": {
       "translation": "A thousand nights will fall with their dark wings,",
       "0": {
         "order_id": 49,
@@ -1230,7 +1230,7 @@
         "verb_subset": ""
       }
     },
-    "8": {
+    "9": {
       "translation": "without destroying the day awaited by these dead.",
       "0": {
         "order_id": 56,
@@ -1289,8 +1289,8 @@
         "verb_subset": ""
       }
     },
-    "9": "break",
-    "10": {
+    "10": "break",
+    "11": {
       "translation": "The day we all await throughout the world,",
       "0": {
         "order_id": 64,
@@ -1356,7 +1356,7 @@
         "verb_subset": ""
       }
     },
-    "11": {
+    "12": {
       "translation": "so many men, the final day of suffering.",
       "0": {
         "order_id": 73,
@@ -1408,8 +1408,8 @@
         "verb_subset": ""
       }
     },
-    "12": "break",
-    "13": {
+    "13": "break",
+    "14": {
       "translation": "A day of justice achieved in the struggle,",
       "0": {
         "order_id": 80,
@@ -1468,7 +1468,7 @@
         "verb_subset": ""
       }
     },
-    "14": {
+    "15": {
       "translation": "and you, fallen brothers, in silence,",
       "0": {
         "order_id": 88,
@@ -1513,7 +1513,7 @@
         "verb_subset": ""
       }
     },
-    "15": {
+    "16": {
       "translation": "you will be with us on that vast day",
       "0": {
         "order_id": 94,
@@ -1565,7 +1565,7 @@
         "verb_subset": ""
       }
     },
-    "16": {
+    "17": {
       "translation": "of the final struggle, on that immense day.",
       "0": {
         "order_id": 101,
@@ -1626,6 +1626,1513 @@
     },
     "metadata": {
       "title": "Siempre",
+      "poet": "Pablo Neruda"
+    }
+  },
+  "Oda al tomate": {
+    "0": {
+      "translation": "The street",
+      "0": {
+        "order_id": 1,
+        "line_id": 1,
+        "word": "La",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 2,
+        "line_id": 2,
+        "word": "calle",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "1": {
+      "translation": "filled with tomatoes,",
+      "0": {
+        "order_id": 3,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 4,
+        "line_id": 2,
+        "word": "llenó",
+        "part_of_speech": "verb",
+        "verb_subset": "past"
+      },
+      "2": {
+        "order_id": 5,
+        "line_id": 3,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 6,
+        "line_id": 4,
+        "word": "tomates,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "2": {
+      "translation": "noon,",
+      "0": {
+        "order_id": 7,
+        "line_id": 1,
+        "word": "mediodia,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "3": {
+      "translation": "summer,",
+      "0": {
+        "order_id": 8,
+        "line_id": 1,
+        "word": "verano,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "4": {
+      "translation": "the light",
+      "0": {
+        "order_id": 9,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 10,
+        "line_id": 2,
+        "word": "luz",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "5": {
+      "translation": "splits",
+      "0": {
+        "order_id": 11,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 12,
+        "line_id": 2,
+        "word": "parte",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "6": {
+      "translation": "in two",
+      "0": {
+        "order_id": 13,
+        "line_id": 1,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 14,
+        "line_id": 2,
+        "word": "dos",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "7": {
+      "translation": "halves",
+      "0": {
+        "order_id": 15,
+        "line_id": 1,
+        "word": "mitades",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "8": {
+      "translation": "of tomato,",
+      "0": {
+        "order_id": 16,
+        "line_id": 1,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 17,
+        "line_id": 2,
+        "word": "tomate,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "9": {
+      "translation": "runs",
+      "0": {
+        "order_id": 18,
+        "line_id": 1,
+        "word": "corre",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "10": {
+      "translation": "through the streets",
+      "0": {
+        "order_id": 19,
+        "line_id": 1,
+        "word": "por",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 20,
+        "line_id": 2,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 21,
+        "line_id": 3,
+        "word": "calles",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "11": {
+      "translation": "the juice.",
+      "0": {
+        "order_id": 22,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 23,
+        "line_id": 2,
+        "word": "jugo.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "12": {
+      "translation": "In December",
+      "0": {
+        "order_id": 24,
+        "line_id": 1,
+        "word": "En",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 25,
+        "line_id": 2,
+        "word": "diciembre",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "13": {
+      "translation": "the tomato",
+      "0": {
+        "order_id": 26,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 27,
+        "line_id": 2,
+        "word": "desata",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "14": {
+      "translation": "unleashes",
+      "0": {
+        "order_id": 28,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 29,
+        "line_id": 2,
+        "word": "tomate,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "15": {
+      "translation": "invades",
+      "0": {
+        "order_id": 30,
+        "line_id": 1,
+        "word": "invade",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "16": {
+      "translation": "the kitchens,",
+      "0": {
+        "order_id": 31,
+        "line_id": 1,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 32,
+        "line_id": 2,
+        "word": "cocinas,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "17": {
+      "translation": "enters through lunches,",
+      "0": {
+        "order_id": 33,
+        "line_id": 1,
+        "word": "entra",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 34,
+        "line_id": 2,
+        "word": "por",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 35,
+        "line_id": 3,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 36,
+        "line_id": 4,
+        "word": "almuerzos,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "18": {
+      "translation": "sits",
+      "0": {
+        "order_id": 37,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 38,
+        "line_id": 2,
+        "word": "sienta",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "19": {
+      "translation": "at ease",
+      "0": {
+        "order_id": 39,
+        "line_id": 1,
+        "word": "reposado",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "20": {
+      "translation": "on the sideboards,",
+      "0": {
+        "order_id": 40,
+        "line_id": 1,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 41,
+        "line_id": 2,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 42,
+        "line_id": 3,
+        "word": "aparadores,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "21": {
+      "translation": "among the glasses,",
+      "0": {
+        "order_id": 43,
+        "line_id": 1,
+        "word": "entre",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 44,
+        "line_id": 2,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 45,
+        "line_id": 3,
+        "word": "vasos,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "22": {
+      "translation": "the butter dishes,",
+      "0": {
+        "order_id": 46,
+        "line_id": 1,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 47,
+        "line_id": 2,
+        "word": "matequilleras,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "23": {
+      "translation": "the blue salt shakers.",
+      "0": {
+        "order_id": 48,
+        "line_id": 1,
+        "word": "los",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 49,
+        "line_id": 2,
+        "word": "saleros",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 50,
+        "line_id": 3,
+        "word": "azules.",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "24": {
+      "translation": "It has",
+      "0": {
+        "order_id": 51,
+        "line_id": 1,
+        "word": "Tiene",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "25": {
+      "translation": "its own light,",
+      "0": {
+        "order_id": 52,
+        "line_id": 1,
+        "word": "luz",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 53,
+        "line_id": 2,
+        "word": "propia,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "26": {
+      "translation": "benign majesty.",
+      "0": {
+        "order_id": 54,
+        "line_id": 1,
+        "word": "majestad",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 55,
+        "line_id": 2,
+        "word": "benigna.",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "27": {
+      "translation": "Unfortunately,",
+      "0": {
+        "order_id": 56,
+        "line_id": 1,
+        "word": "Devemos,",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 57,
+        "line_id": 2,
+        "word": "por",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 58,
+        "line_id": 3,
+        "word": "desgracia,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "28": {
+      "translation": "we must kill it:",
+      "0": {
+        "order_id": 59,
+        "line_id": 1,
+        "word": "asesinarlo:",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "29": {
+      "translation": "the knife plunges",
+      "0": {
+        "order_id": 60,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 61,
+        "line_id": 2,
+        "word": "hunde",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "30": {
+      "translation": "into its living flesh,",
+      "0": {
+        "order_id": 62,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 63,
+        "line_id": 2,
+        "word": "cuchillo",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "31": {
+      "translation": "it is a red",
+      "0": {
+        "order_id": 64,
+        "line_id": 1,
+        "word": "es",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 65,
+        "line_id": 2,
+        "word": "una",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 66,
+        "line_id": 3,
+        "word": "roja",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "32": {
+      "translation": "viscera,",
+      "0": {
+        "order_id": 67,
+        "line_id": 1,
+        "word": "viscera,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "33": {
+      "translation": "a fresh",
+      "0": {
+        "order_id": 68,
+        "line_id": 1,
+        "word": "un",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 69,
+        "line_id": 2,
+        "word": "sol",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "34": {
+      "translation": "cool",
+      "0": {
+        "order_id": 70,
+        "line_id": 1,
+        "word": "fresco,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "35": {
+      "translation": "deep,",
+      "0": {
+        "order_id": 71,
+        "line_id": 1,
+        "word": "profundo,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "36": {
+      "translation": "inexhaustible,",
+      "0": {
+        "order_id": 72,
+        "line_id": 1,
+        "word": "inagotable,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "37": {
+      "translation": "fills Chilean salads",
+      "0": {
+        "order_id": 73,
+        "line_id": 1,
+        "word": "llena",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 74,
+        "line_id": 2,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 75,
+        "line_id": 3,
+        "word": "ensaladas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 76,
+        "line_id": 4,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 77,
+        "line_id": 5,
+        "word": "Chile,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "38": {
+      "translation": "joyfully marries",
+      "0": {
+        "order_id": 78,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 79,
+        "line_id": 2,
+        "word": "casa",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "39": {
+      "translation": "with the clear onion,",
+      "0": {
+        "order_id": 80,
+        "line_id": 1,
+        "word": "alegremente",
+        "part_of_speech": "adverb",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 81,
+        "line_id": 2,
+        "word": "con",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 82,
+        "line_id": 3,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 83,
+        "line_id": 4,
+        "word": "clara",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 84,
+        "line_id": 5,
+        "word": "cebolla,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "40": {
+      "translation": "and to celebrate it",
+      "0": {
+        "order_id": 85,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 86,
+        "line_id": 2,
+        "word": "para",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 87,
+        "line_id": 3,
+        "word": "celebrarlo",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "41": {
+      "translation": "drops",
+      "0": {
+        "order_id": 88,
+        "line_id": 1,
+        "word": "se",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 89,
+        "line_id": 2,
+        "word": "deja",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "42": {
+      "translation": "oil,",
+      "0": {
+        "order_id": 90,
+        "line_id": 1,
+        "word": "caer",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "43": {
+      "translation": "essential child of the olive,",
+      "0": {
+        "order_id": 91,
+        "line_id": 1,
+        "word": "hijo",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 92,
+        "line_id": 2,
+        "word": "esencial",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 93,
+        "line_id": 3,
+        "word": "del",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 94,
+        "line_id": 4,
+        "word": "olivo,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "44": {
+      "translation": "on its half-open hemispheres,",
+      "0": {
+        "order_id": 95,
+        "line_id": 1,
+        "word": "sobre",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 96,
+        "line_id": 2,
+        "word": "sus",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 97,
+        "line_id": 3,
+        "word": "hemisferios",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 98,
+        "line_id": 4,
+        "word": "entreabiertos,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "45": {
+      "translation": "adds",
+      "0": {
+        "order_id": 99,
+        "line_id": 1,
+        "word": "agrega",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "46": {
+      "translation": "its fragrance",
+      "0": {
+        "order_id": 100,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 101,
+        "line_id": 2,
+        "word": "pimienta",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "47": {
+      "translation": "pepper",
+      "0": {
+        "order_id": 102,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 103,
+        "line_id": 2,
+        "word": "sal",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "48": {
+      "translation": "its magnetism:",
+      "0": {
+        "order_id": 104,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 105,
+        "line_id": 2,
+        "word": "magnetismo:",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "49": {
+      "translation": "are the weddings",
+      "0": {
+        "order_id": 106,
+        "line_id": 1,
+        "word": "son",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 107,
+        "line_id": 2,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 108,
+        "line_id": 3,
+        "word": "bodas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 109,
+        "line_id": 4,
+        "word": "del",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 110,
+        "line_id": 5,
+        "word": "día",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "50": {
+      "translation": "parsley raises",
+      "0": {
+        "order_id": 111,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 112,
+        "line_id": 2,
+        "word": "perejil",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "51": {
+      "translation": "little flags,",
+      "0": {
+        "order_id": 113,
+        "line_id": 1,
+        "word": "levanta",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 114,
+        "line_id": 2,
+        "word": "banderines,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "52": {
+      "translation": "potatoes boil vigorously,",
+      "0": {
+        "order_id": 115,
+        "line_id": 1,
+        "word": "las",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 116,
+        "line_id": 2,
+        "word": "papas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 117,
+        "line_id": 3,
+        "word": "hierven",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "3": {
+        "order_id": 118,
+        "line_id": 4,
+        "word": "vigorosamente,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "53": {
+      "translation": "the roast",
+      "0": {
+        "order_id": 119,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 120,
+        "line_id": 2,
+        "word": "asado",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "54": {
+      "translation": "knocks",
+      "0": {
+        "order_id": 121,
+        "line_id": 1,
+        "word": "golpea",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "55": {
+      "translation": "with its aroma",
+      "0": {
+        "order_id": 122,
+        "line_id": 1,
+        "word": "con",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 123,
+        "line_id": 2,
+        "word": "su",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 124,
+        "line_id": 3,
+        "word": "aroma",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "56": {
+      "translation": "on the door,",
+      "0": {
+        "order_id": 125,
+        "line_id": 1,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 126,
+        "line_id": 2,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 127,
+        "line_id": 3,
+        "word": "puerta,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "57": {
+      "translation": "it's time!",
+      "0": {
+        "order_id": 128,
+        "line_id": 1,
+        "word": "es",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      },
+      "1": {
+        "order_id": 129,
+        "line_id": 2,
+        "word": "hora!",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "58": {
+      "translation": "and on",
+      "0": {
+        "order_id": 130,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 131,
+        "line_id": 2,
+        "word": "sobre",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      }
+    },
+    "59": {
+      "translation": "the table, in the waist",
+      "0": {
+        "order_id": 132,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 133,
+        "line_id": 2,
+        "word": "mesa,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 134,
+        "line_id": 3,
+        "word": "en",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 135,
+        "line_id": 4,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "4": {
+        "order_id": 136,
+        "line_id": 5,
+        "word": "cintura",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "60": {
+      "translation": "of summer,",
+      "0": {
+        "order_id": 137,
+        "line_id": 1,
+        "word": "del",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 138,
+        "line_id": 2,
+        "word": "verano,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "61": {
+      "translation": "the tomato,",
+      "0": {
+        "order_id": 139,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 140,
+        "line_id": 2,
+        "word": "tomate,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "62": {
+      "translation": "earth star,",
+      "0": {
+        "order_id": 141,
+        "line_id": 1,
+        "word": "aastro",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 142,
+        "line_id": 2,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 143,
+        "line_id": 3,
+        "word": "tierra,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "63": {
+      "translation": "repeated",
+      "0": {
+        "order_id": 144,
+        "line_id": 1,
+        "word": "estrella",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 145,
+        "line_id": 2,
+        "word": "repetida",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "64": {
+      "translation": "and fruitful,",
+      "0": {
+        "order_id": 146,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 147,
+        "line_id": 2,
+        "word": "fecunda,",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "65": {
+      "translation": "shows us",
+      "0": {
+        "order_id": 148,
+        "line_id": 1,
+        "word": "nos",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 149,
+        "line_id": 2,
+        "word": "muestra",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "66": {
+      "translation": "its convolutions,",
+      "0": {
+        "order_id": 150,
+        "line_id": 1,
+        "word": "sus",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 151,
+        "line_id": 2,
+        "word": "circunvoluciones,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "67": {
+      "translation": "its channels,",
+      "0": {
+        "order_id": 152,
+        "line_id": 1,
+        "word": "sus",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 153,
+        "line_id": 2,
+        "word": "canales,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "68": {
+      "translation": "the eminent fullness",
+      "0": {
+        "order_id": 154,
+        "line_id": 1,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 155,
+        "line_id": 2,
+        "word": "insigne",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 156,
+        "line_id": 3,
+        "word": "plenitud",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "69": {
+      "translation": "and the abundance",
+      "0": {
+        "order_id": 157,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 158,
+        "line_id": 2,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 159,
+        "line_id": 3,
+        "word": "abundancia",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "70": {
+      "translation": "without bone,",
+      "0": {
+        "order_id": 160,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 161,
+        "line_id": 2,
+        "word": "hueso,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "71": {
+      "translation": "without shell,",
+      "0": {
+        "order_id": 162,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 163,
+        "line_id": 2,
+        "word": "coraza,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "72": {
+      "translation": "without scales or thorns,",
+      "0": {
+        "order_id": 164,
+        "line_id": 1,
+        "word": "sin",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 165,
+        "line_id": 2,
+        "word": "escamas",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 166,
+        "line_id": 3,
+        "word": "ni",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 167,
+        "line_id": 4,
+        "word": "espinas,",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "73": {
+      "translation": "it gives us",
+      "0": {
+        "order_id": 168,
+        "line_id": 1,
+        "word": "nos",
+        "part_of_speech": "pronoun",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 169,
+        "line_id": 2,
+        "word": "entrega",
+        "part_of_speech": "verb",
+        "verb_subset": "present"
+      }
+    },
+    "74": {
+      "translation": "the gift",
+      "0": {
+        "order_id": 170,
+        "line_id": 1,
+        "word": "el",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 171,
+        "line_id": 2,
+        "word": "regalo",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "75": {
+      "translation": "of its fiery color",
+      "0": {
+        "order_id": 172,
+        "line_id": 1,
+        "word": "de",
+        "part_of_speech": "preposition",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 173,
+        "line_id": 2,
+        "word": "su",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 174,
+        "line_id": 3,
+        "word": "color",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      },
+      "3": {
+        "order_id": 175,
+        "line_id": 4,
+        "word": "fogoso",
+        "part_of_speech": "adjective",
+        "verb_subset": ""
+      }
+    },
+    "76": {
+      "translation": "and the fullness",
+      "0": {
+        "order_id": 176,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 177,
+        "line_id": 2,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 178,
+        "line_id": 3,
+        "word": "totalidad",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "77": {
+      "translation": "of its freshness.",
+      "0": {
+        "order_id": 179,
+        "line_id": 1,
+        "word": "y",
+        "part_of_speech": "conjunction",
+        "verb_subset": ""
+      },
+      "1": {
+        "order_id": 180,
+        "line_id": 2,
+        "word": "la",
+        "part_of_speech": "article",
+        "verb_subset": ""
+      },
+      "2": {
+        "order_id": 181,
+        "line_id": 3,
+        "word": "frescura.",
+        "part_of_speech": "noun",
+        "verb_subset": ""
+      }
+    },
+    "metadata": {
+      "title": "Oda al tomate",
       "poet": "Pablo Neruda"
     }
   }
