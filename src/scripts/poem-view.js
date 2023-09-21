@@ -75,7 +75,7 @@ class PoemView {
     addToolTip(line) {
         const tooltipEl = document.createElement("span")
         tooltipEl.classList.add("tooltiptext")
-        const translation = this.poem[line.classList].translation // should be line num
+        const translation = this.poem[line.classList].translation
         tooltipEl.innerText = translation
         line.classList.add("tooltip")
         line.append(tooltipEl)

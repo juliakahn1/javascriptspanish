@@ -235,6 +235,12 @@ header ul.menu-nav a .dropdown {
   position: relative;
   display: inline-block;
 }
+header ul.menu-nav li .button-and-arrow,
+header ul.menu-nav a .button-and-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 header ul.menu-nav li .dropdown-button,
 header ul.menu-nav a .dropdown-button {
   color: rgb(0, 0, 0);
@@ -243,6 +249,18 @@ header ul.menu-nav a .dropdown-button {
   font-weight: 400;
   cursor: pointer;
   margin: 7px;
+}
+header ul.menu-nav li .arrow,
+header ul.menu-nav a .arrow {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+header ul.menu-nav li .down,
+header ul.menu-nav a .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 header ul.menu-nav li .dropdown-content,
 header ul.menu-nav a .dropdown-content {
