@@ -38,3 +38,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 document.querySelector('.close-btn').addEventListener("click", (e) => {
     document.querySelector('.modal').style.display = "none"
 })
+
+document.querySelector('.modal').addEventListener("click", (e) => {
+    document.querySelector('.modal').style.display = "none"
+})
